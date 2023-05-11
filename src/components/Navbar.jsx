@@ -6,7 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineDown,
   AiOutlineMenu,
-  AiOutlineClose
+  AiOutlineClose,
 } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { Logo } from "../assets/icons";
@@ -17,23 +17,38 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const loactionPath = (route) => {
-    if(route === location.pathname) {
-     return true
+    if (route === location.pathname) {
+      return true;
     }
-   }
+  };
 
   return (
     <>
       <div className="w-full h-full ">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex items-center justify-between  px-7 xl:px-0 gap-9 font-Krub">
-
           {/* desktop */}
           <ul className=" h-full hidden md:flex items-center gap-8 text-white font-semibold text-sm lg:text-base">
             <li>
-              <Link to="/" className={` ${loactionPath("/") && 'border-b-2 border-b-white pb-[29px] lg:pb-[27px]'}`}>Home</Link>
+              <Link
+                to="/"
+                className={` ${
+                  loactionPath("/") &&
+                  "border-b-2 border-b-white pb-[29px] lg:pb-[27px]"
+                }`}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about" className={` ${loactionPath("/about") && 'border-b-2 border-b-white pb-[29px] lg:pb-[27px]'}`}>About</Link>
+              <Link
+                to="/about"
+                className={` ${
+                  loactionPath("/about") &&
+                  "border-b-2 border-b-white pb-[29px] lg:pb-[27px]"
+                }`}
+              >
+                About
+              </Link>
             </li>
             <li className="relative">
               <a
@@ -46,7 +61,7 @@ const Navbar = () => {
               {openPage && (
                 <ul className="absolute top-6 w-20 h-12 bg-black px-2 py-1 flex flex-col  gap-2">
                   <li>
-                    <Link to="/services" >Services</Link>
+                    <Link to="/services">Services</Link>
                   </li>
                   <li>
                     <Link to="/blog">Blog</Link>
@@ -61,41 +76,126 @@ const Navbar = () => {
               )}
             </li>
             <li>
-              <Link to="/projects" className={` ${loactionPath("/projects") && 'border-b-2 border-b-white pb-[29px] lg:pb-[27px]'}`}>Project</Link>
+              <Link
+                to="/projects"
+                className={` ${
+                  loactionPath("/projects") &&
+                  "border-b-2 border-b-white pb-[29px] lg:pb-[27px]"
+                }`}
+              >
+                Project
+              </Link>
             </li>
             <li>
-              <Link to="/contact" className={` ${loactionPath("/contact") && 'border-b-2 border-b-white pb-[29px] lg:pb-[27px]'}`}>Contact</Link>
+              <Link
+                to="/contact"
+                className={` ${
+                  loactionPath("/contact") &&
+                  "border-b-2 border-b-white pb-[29px] lg:pb-[27px]"
+                }`}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
 
           {/* mobile-menu */}
           <div className="flex md:hidden items-center gap-2">
-          {toggleMenu ? (
-          <AiOutlineClose className="w-6 h-6 text-white cursor-pointer" onClick={() => setToggleMenu(false)}/>
-          ) : (
-            <AiOutlineMenu className="w-6 h-6 text-white cursor-pointer" onClick={() => setToggleMenu(true)}/>
-          )}
-          { toggleMenu && (
-            <ul className="absolute top-[78px] left-0 w-40 z-10 h-fit bg-[#091242] bg-opacity-90  text-white flex flex-col gap-4 items-start p-4 ">
-           <li><Link to='/' className={`${loactionPath("/") && ''}`}>Home</Link></li>
-           <li><Link to='/about' className={`${loactionPath("/about") && ''}`}>About</Link></li>
-           <li><Link to='/services' className={`${loactionPath("/services") && ''}`}>Services</Link></li>
-           <li><Link to='/blog' className={`${loactionPath("/blog") && ''}`}>Blog</Link></li>
-           <li><Link to='/projects' className={`${loactionPath("/projects") && ''}`}>Projects</Link></li>
-           <li><Link to='/tech' className={`${loactionPath("/tech") && ''}`}>Tech</Link></li>
-           <li><Link to='/pricing' className={`${loactionPath("/pricing") && ''}`}>Pricing</Link></li>
-           <li><Link to='/contact' className={`${loactionPath("/contact") && ''}`}>Contact</Link></li>
-           <div className="flex items-center justify-center gap-4">
-              <AiOutlineInstagram className="w-5 h-5 text-white" />
-              <AiFillFacebook className="w-5 h-5 text-white" />
-              <AiOutlineTwitter className="w-5 h-5 text-white" />
-              <AiFillLinkedin className="w-5 h-5 text-white" />
+            {toggleMenu ? (
+              <AiOutlineClose
+                className="w-6 h-6 text-white cursor-pointer"
+                onClick={() => setToggleMenu(false)}
+              />
+            ) : (
+              <AiOutlineMenu
+                className="w-6 h-6 text-white cursor-pointer"
+                onClick={() => setToggleMenu(true)}
+              />
+            )}
+            {toggleMenu && (
+              <div className="bg-[#091242] fixed top-0 left-0 w-full h-fit">
+                <AiOutlineClose
+                  className="w-6 h-6 text-white cursor-pointer absolute top-5 right-5"
+                  onClick={() => setToggleMenu(false)}
+                />
+                <ul className="z-10 text-white flex flex-col items-center justify-center gap-8 p-8">
+                  <li className="text-lg font-medium">
+                    <Link to="/" className={`${loactionPath("/") && "text-[#666C89]"} `}>
+                      Home
+                    </Link>
+                  </li>
+                  <li  className="text-lg font-medium">
+                    <Link
+                      to="/about"
+                      className={`${loactionPath("/about") && "text-[#666C89]"}`}
+                    >
+                      About
+                    </Link>
+                  </li>
+                  <li  className="text-lg font-medium">
+                    <Link
+                      to="/services"
+                      className={`${loactionPath("/services") && "text-[#666C89]"}`}
+                    >
+                      Services
+                    </Link>
+                  </li>
+                  <li  className="text-lg font-medium">
+                    <Link
+                      to="/blog"
+                      className={`${loactionPath("/blog") && "text-[#666C89]"}`}
+                    >
+                      Blog
+                    </Link>
+                  </li>
+                  <li  className="text-lg font-medium">
+                    <Link
+                      to="/projects"
+                      className={`${loactionPath("/projects") && "text-[#666C89]"}`}
+                    >
+                      Projects
+                    </Link>
+                  </li>
+                  <li  className="text-lg font-medium">
+                    <Link
+                      to="/tech"
+                      className={`${loactionPath("/tech") && "text-[#666C89]"}`}
+                    >
+                      Tech
+                    </Link>
+                  </li>
+                  <li className="text-lg font-medium">
+                    <Link
+                      to="/pricing"
+                      className={`${loactionPath("/pricing") && "text-[#666C89]"}`}
+                    >
+                      Pricing
+                    </Link>
+                  </li>
+                  <li className="text-lg font-medium">
+                    <Link
+                      to="/contact"
+                      className={`${loactionPath("/contact") && "text-[#666C89]"}`}
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                  <div className="flex items-center justify-center gap-4">
+                    <AiOutlineInstagram className="w-6 h-6 text-white cursor-pointer" />
+                    <AiFillFacebook className="w-6 h-6 text-white cursor-pointer" />
+                    <AiOutlineTwitter className="w-6 h-6 text-white cursor-pointer" />
+                    <AiFillLinkedin className="w-6 h-6 text-white cursor-pointer" />
+                  </div>
+                </ul>
+              </div>
+            )}
+            <div className="flex items-center justify-center w-40 h-11 ">
+              <img
+                src={Logo}
+                alt="Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
-        </ul>
-          )}
-            <div className='flex items-center justify-center w-40 h-11 '>
-          <img src={Logo} alt="Logo" className='w-full h-full object-contain' />
-        </div>
           </div>
 
           <div className=" h-full hidden sm:flex items-center justify-center gap-8">

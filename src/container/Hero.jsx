@@ -3,12 +3,12 @@ import { Banner } from "../assets/images";
 const Hero = () => {
   return (
     <>
-      <div className="w-full h-[440px] sm:h-[550px] md:h-[700px] z-0 relative">
+      <div className="w-full h-[450px] sm:h-[550px] md:h-[700px] z-0 relative">
         <div className="w-full h-full">
           <img src={Banner} alt="" className="w-full h-full object-cover" />
         </div>
 
-        <div className="w-full h-full font-Rubik text-white flex flex-col items-start gap-1 md:gap-3 absolute top-44 sm:top-64 md:top-72 lg:top-64 left-5 sm:left-10 md:left-10 lg:left-48">
+        <div className="w-full h-full font-Rubik text-white flex flex-col items-start gap-2 md:gap-3 absolute top-44 sm:top-64 md:top-72 lg:top-64 left-5 sm:left-10 md:left-10 lg:left-48">
           <p className="text-[10px] sm:text-xs bg-[#041C37] bg-opacity-50 px-1 border-l-4 border-l-[#FFB629]">
             Logistics & Supply Chain Solutions
           </p>
