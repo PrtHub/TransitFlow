@@ -3,6 +3,7 @@ import ship from './ship.png'
 import Truck from './Truck.png'
 import warehouse from './warehouse.png'
 import Flight from './Flight.svg'
+import Star from './Star.png'
 
 
 export {
@@ -10,5 +11,6 @@ export {
     ship,
     Truck,
     warehouse,
-    Flight
+    Flight,
+    Star
 }

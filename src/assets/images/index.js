@@ -6,6 +6,9 @@ import two from './two.png'
 import three from './three.png'
 import four from  './four.png'
 import five from './five.png'
+import smith from './smith.png'
+import john from './john.png'
+import colon from './colon.png'
 
 export {
     Banner,
@@ -15,5 +18,8 @@ export {
     two,
     three,
     four,
-    five
+    five,
+    smith,
+    john,
+    colon
 }
