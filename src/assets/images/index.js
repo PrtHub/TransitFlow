@@ -9,6 +9,7 @@ import five from './five.png'
 import smith from './smith.png'
 import john from './john.png'
 import colon from './colon.png'
+import plane from './fullplane.png'
 
 export {
     Banner,
@@ -21,5 +22,6 @@ export {
     five,
     smith,
     john,
-    colon
+    colon,
+    plane
 }
