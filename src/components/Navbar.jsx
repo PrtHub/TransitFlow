@@ -24,8 +24,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-full bg-[#091242] bg-opacity-25">
-        <div className="w-full xl:w-[1200px] h-[78px] mx-auto flex items-center justify-between  px-7 xl:px-0 gap-9 font-Krub">
+      <div className="w-full h-full ">
+        <div className="w-full xl:w-[1200px] h-full mx-auto flex items-center justify-between  px-7 xl:px-0 gap-9 font-Krub">
 
           {/* desktop */}
           <ul className=" h-full hidden md:flex items-center gap-8 text-white font-semibold text-sm lg:text-base">
@@ -76,7 +76,7 @@ const Navbar = () => {
             <AiOutlineMenu className="w-6 h-6 text-white cursor-pointer" onClick={() => setToggleMenu(true)}/>
           )}
           { toggleMenu && (
-            <ul className="absolute top-[78px] left-0 w-40 z-10 h-fit bg-[#091242] bg-opacity-25  text-white flex flex-col gap-4 items-start p-4 ">
+            <ul className="absolute top-[78px] left-0 w-40 z-10 h-fit bg-[#091242] bg-opacity-90  text-white flex flex-col gap-4 items-start p-4 ">
            <li><Link to='/' className={`${loactionPath("/") && ''}`}>Home</Link></li>
            <li><Link to='/about' className={`${loactionPath("/about") && ''}`}>About</Link></li>
            <li><Link to='/services' className={`${loactionPath("/services") && ''}`}>Services</Link></li>

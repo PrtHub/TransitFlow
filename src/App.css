@@ -3,4 +3,16 @@
 *{
   margin: 0;
   padding: 0;
+
 }
+
+body {
+  background-color: #091242;
+}
+
+.background{
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+
+  
