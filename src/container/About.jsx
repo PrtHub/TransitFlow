@@ -47,6 +47,19 @@ const About = () => {
             <img src={Air} alt="" className="w-full h-full" />
           </div>
         </div>
+
+          <div className="w-full h-full flex flex-col sm:flex-row  items-center justify-center gap-10 p-10">
+             <div className="flex items-center gap-3">
+                <h1 className="text-3xl md:text-5xl font-semibold">1294</h1>
+                <div className="w-4 h-4 background"/>
+                <p className="font-League text-base">Delivered Packages</p>
+             </div>
+             <div className="flex items-center gap-3">
+                <h1 className="text-3xl md:text-5xl font-semibold">3594</h1>
+                <div className="w-4 h-4 background"/>
+                <p className="font-League text-base">Satisfied Clients</p>
+             </div>
+          </div>
       </div>
     </>
   );
