@@ -1,6 +1,6 @@
 import { AboutBg, Air } from "../assets/images";
-import { BsBox } from 'react-icons/bs'
-import { BiMoney } from 'react-icons/bi'
+import { BsBox } from "react-icons/bs";
+import { BiMoney } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -18,7 +18,9 @@ const About = () => {
             <p className="text-xs text-[#1C1F35] font-normal border-l-4 border-l-[#FFB629] px-2">
               Why us
             </p>
-            <h1 className="font-Rubik text-2xl md:text-xl lg:text-3xl text-[#1C1F35] font-semibold">We provide full range global logistics solution</h1>
+            <h1 className="font-Rubik text-2xl md:text-xl lg:text-3xl text-[#1C1F35] font-semibold">
+              We provide full range global logistics solution
+            </h1>
             <p className="text-[#666C89] font-medium text-sm md:text-xs lg:text-sm">
               Leverage agile frameworks to provide a robust synopsis for
               strategy foster collaborative thinking to further the overall
@@ -29,12 +31,16 @@ const About = () => {
               via workplace diversity and empowerment.
             </p>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <BsBox className="background w-7 h-7 p-2 rounded-full"/>
-              <p className="text-base md:text-lg font-Rubik font-normal">Delivery on Time</p>
+              <BsBox className="background w-7 h-7 p-2 rounded-full" />
+              <p className="text-base md:text-lg font-Rubik font-normal">
+                Delivery on Time
+              </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <BiMoney className="background w-7 h-7 p-2 rounded-full"/>
-              <p className="text-base md:text-lg font-Rubik font-normal">Optimized Travel Cost</p>
+              <BiMoney className="background w-7 h-7 p-2 rounded-full" />
+              <p className="text-base md:text-lg font-Rubik font-normal">
+                Optimized Travel Cost
+              </p>
             </div>
           </div>
           <div className="w-full h-full md:w-[400px] md:h-[350px] lg:w-[450px] lg:h-[400px] ">
