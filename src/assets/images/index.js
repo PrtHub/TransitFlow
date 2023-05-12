@@ -20,6 +20,7 @@ import client4 from './Client4.png'
 import broker from './broker.png'
 import business from './business.png'
 import Tech from './Tech.png'
+import calender from './calender.png'
 
 export {
     Banner,
@@ -42,5 +43,7 @@ export {
     client3,
     client4,
     broker,
-    Tech
+    Tech,
+    business,
+    calender
 }

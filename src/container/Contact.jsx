@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="w-full flex items-start flex-col  justify-start gap-8 font-League">
+            <div className="w-full flex items-center md:items-start flex-col  justify-center gap-8 font-League">
               <form className="w-full grid grid-cols-1 xl:grid-cols-2 gap-8">
                 <input
                   type="text"
@@ -81,7 +81,7 @@ const Contact = () => {
                 className="w-full h-32 border-[1px] border-[#4E5683] bg-transparent outline-none placeholder:text-white text-white px-5 py-3 font-normal"
               ></textarea>
               <button
-                className="background text-[#23212A] font-Krub font-medium text-base px-5 py-3
+                className=" background text-[#23212A] font-Krub font-medium text-base px-5 py-3
                 "
               >
                 Submit Message{" "}
