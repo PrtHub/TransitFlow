@@ -20,6 +20,9 @@ const Blog = () => {
             <BlogCard img={Tech} title="How technology can help redraw the supply chain map" date="12"/>
             <BlogCard img={broker} title="Five things you should have ready for your broker" date="16"/>
           </div>
+          <div className="font-Krub">
+              <button className="bg-[#091242] text-base px-8 py-3 text-white">More Blog</button>
+          </div>
        </div>
      </div>
     </>
