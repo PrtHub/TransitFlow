@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { Logo } from "../assets/icons";
 
+
 const Footer = () => {
   return (
     <>
@@ -72,6 +73,16 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+          </div>
+     
+          <div className="w-full flex flex-col-reverse md:flex-row border-t-[1px] border-t-[#4E5683]  items-center justify-between gap-5 font-Krub pt-10">
+            <p className="text-white font-medium text-sm">Copyright ©TransitFlow 2023</p>
+            <ul className="flex items-center justify-center gap-5 text-[#8388A7] text-sm">
+              <li>Style Guide</li>
+              <li>Licenses</li>
+              <li>Changelog</li>
+              <li>Password</li>
+            </ul>
           </div>
         </div>
       </div>
