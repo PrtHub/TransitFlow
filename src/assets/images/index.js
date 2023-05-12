@@ -10,6 +10,9 @@ import smith from './smith.png'
 import john from './john.png'
 import colon from './colon.png'
 import plane from './fullplane.png'
+import Jessca from './Jessca.png'
+import kathleen from './kathleen.png'
+import Tylor from './Tylor.png'
 
 export {
     Banner,
@@ -23,5 +26,8 @@ export {
     smith,
     john,
     colon,
-    plane
+    plane,
+    Jessca,
+    kathleen,
+    Tylor
 }
