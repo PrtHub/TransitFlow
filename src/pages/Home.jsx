@@ -1,4 +1,5 @@
-import {About, Blog, Choose, Contact, Footer, Hero, Project, Service, Team, Testimonial } from "../container"
+import { port } from "../assets/images"
+import {About, Blog, Choose, Contact, Hero, Project, Service, Team, Testimonial } from "../container"
 
 
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
       <Team/>
       <Contact/>
       <Blog/>
-      <Footer/>
+      <div className="w-full h-full">
+         <img src={port} alt="port" className="w-full h-full object-contain" />
+      </div>
     </div>
     </>
   )

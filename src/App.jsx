@@ -14,7 +14,7 @@ import {
   Tech,
   Transpotation,
 } from "./pages";
-import { Header, Navbar } from "./components";
+import { Footer, Header, Navbar } from "./components";
 
 const App = () => {
   return (
@@ -39,6 +39,7 @@ const App = () => {
             <Navbar />
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   );

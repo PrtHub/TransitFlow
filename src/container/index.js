@@ -2,7 +2,6 @@ import Hero from "./Hero";
 import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import Service from "./Service";
 import Testimonial from "./Testimonial";
 import Choose from "./Choose";
@@ -15,7 +14,6 @@ export {
     Blog,
     Contact,
     Project,
-    Footer,
     Service,
     Testimonial,
     Choose,
