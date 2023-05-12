@@ -13,6 +13,10 @@ import plane from './fullplane.png'
 import Jessca from './Jessca.png'
 import kathleen from './kathleen.png'
 import Tylor from './Tylor.png'
+import client1 from './Client1.png'
+import client2 from './Client2.png'
+import client3 from './Client3.png'
+import client4 from './Client4.png'
 
 export {
     Banner,
@@ -29,5 +33,9 @@ export {
     plane,
     Jessca,
     kathleen,
-    Tylor
+    Tylor,
+    client1,
+    client2,
+    client3,
+    client4
 }
