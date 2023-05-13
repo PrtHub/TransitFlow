@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
     <div className="w-full h-full bg-white flex flex-col items-center justify-center mt-20 gap-10">
-      <h1 className="font-Rubik text-center text-3xl md:text-4xl text-[#1C1F35] font-semibold">Transporting Across The World</h1>
+      <h1 className="header-text">Transporting Across The World</h1>
       <div className="flex flex-row flex-wrap items-center justify-center gap-10 z-10">
         <ProjectCard img={one} title="Liquid Transportation" desc="Premium Tankers"/>
         <ProjectCard img={two} title="Packaging Solutions" desc="Warehouse Management"/>

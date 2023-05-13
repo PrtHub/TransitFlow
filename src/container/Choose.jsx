@@ -15,13 +15,13 @@ const Choose = () => {
         </div>
       
        <div className="w-full max-w-[500px] h-full flex flex-col items-start justify-start gap-3 font-Rubik sm:px-0 px-8 ">
-            <p className="text-xs text-[#1C1F35] font-normal border-l-4 border-l-[#FFB629] px-2">
+            <p className="head-text">
             Why Choose
             </p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl text-[#1C1F35] font-semibold">
+            <h1 className="header-text">
             We create opportunity to <br /> reach potential
             </h1>
-            <p className="font-Krub text-[#666C89] ">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
+            <p className="para ">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
 
             <div className="grid grid-cols-2 gap-5">
             <div className="flex items-center justify-start gap-2 mt-2">

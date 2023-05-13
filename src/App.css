@@ -11,8 +11,18 @@
 } */
 
 .background{
-  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)
 }
 
+.head-text {
+  @apply text-xs text-[#1C1F35] font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2
+}
 
+.header-text{
+  @apply font-Rubik text-2xl lg:text-3xl text-[#1C1F35] font-semibold
+}
+
+.para{
+  @apply font-Krub text-[#666C89] font-medium md:text-sm lg:text-base
+}
   

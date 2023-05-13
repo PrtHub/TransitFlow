@@ -10,13 +10,13 @@ const Contact = () => {
           <div className="w-full h-full flex flex-col md:flex-row justify-around items-start gap-10">
             <div className="w-full flex flex-col items-start justify-between gap-5 ">
               <div className="max-w-[353px] flex flex-col items-start justify-start gap-2 text-white">
-                <p className="text-xs  font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2">
+                <p className="text-xs font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2">
                   Contact
                 </p>
                 <h1 className="font-Rubik text-2xl md:text-xl lg:text-3xl font-semibold">
                   Get in touch with us
                 </h1>
-                <p className="font-Krub">
+                <p className="para">
                   Leverage agile frameworks to provide a robust synopsis for
                   strategy foster collaborative thinking to further the overall
                   value proposition.{" "}

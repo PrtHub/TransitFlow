@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="w-full flex justify-between items-start flex-col md:flex-row gap-10">
             <div className="max-w-[300px] flex flex-col items-start justify-start gap-4">
-              <p className="font-Krub text-[#E8E8E8] text-sm ">
+              <p className="font-Krub text-[#E8E8E8] text-base">
                 Leverage agile frameworks to provide a robust synopsis for
                 strategy collaborative thinking to further the overall value
                 proposition.
@@ -40,14 +40,14 @@ const Footer = () => {
               </div>
             </div>
 
-            <ul className="flex flex-col items-start justify-start text-white text-sm gap-4 font-Krub">
+            <ul className="flex flex-col items-start justify-start text-white text-base gap-4 font-Krub">
               <li>About Us</li>
               <li>Our Team</li>
               <li>Our Project</li>
               <li>Pricing</li>
               <li>Contact</li>
             </ul>
-            <ul className="flex flex-col items-start justify-start text-white text-sm gap-4 font-Krub">
+            <ul className="flex flex-col items-start justify-start text-white text-base gap-4 font-Krub">
               <li>Style Guide</li>
               <li>Chalenging</li>
               <li>Licenses</li>

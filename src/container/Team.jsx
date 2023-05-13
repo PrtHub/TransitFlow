@@ -7,10 +7,10 @@ const Team = () => {
       <div className="w-full h-full bg-white">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col justify-center items-center gap-10 py-20 px-7 xl:px-0">
           <div className="flex flex-col justify-center items-center gap-5 font-Rubik">
-            <p className="text-xs text-[#1C1F35] font-normal border-l-4 border-l-[#FFB629] px-2">
+            <p className="head-text">
               The Transporters
             </p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl text-[#1C1F35] font-semibold">
+            <h1 className="header-text">
               Meet Expert Team
             </h1>
           </div>
