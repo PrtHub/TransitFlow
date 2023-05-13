@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCard";
 import TeamCard from "./TeamCard";
 import BlogCard from "./BlogCard";
 import PricingCard from "./PricingCard";
+import ServiceCard from "./ServiceCard";
 
 
 export {
@@ -14,5 +15,6 @@ export {
     ProjectCard,
     TeamCard,
     BlogCard,
-    PricingCard
+    PricingCard,
+    ServiceCard
 }
