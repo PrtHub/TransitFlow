@@ -41,9 +41,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/aboutus"
                 className={` ${
-                  loactionPath("/about") &&
+                  loactionPath("/aboutus") &&
                   "border-b-2 border-b-white pb-[29px] lg:pb-[27px]"
                 }`}
               >
@@ -126,8 +126,8 @@ const Navbar = () => {
                   </li>
                   <li  className="text-lg font-medium">
                     <Link
-                      to="/about"
-                      className={`${loactionPath("/about") && "text-light-gray"}`}
+                      to="/aboutus"
+                      className={`${loactionPath("/aboutus") && "text-light-gray"}`}
                     >
                       About
                     </Link>

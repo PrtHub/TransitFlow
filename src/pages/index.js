@@ -1,5 +1,5 @@
 import Home from "./Home";
-import About from "./About";
+import AboutUs from "./AboutUs";
 import Blog from "./Blog";
 import BlogSingle from "./BlogSingle";
 import Contact from "./Contact";
@@ -12,7 +12,7 @@ import Transpotation from "./Transpotation";
 
 export {
     Home,
-    About,
+    AboutUs,
     Blog,
     BlogSingle,
     Contact,

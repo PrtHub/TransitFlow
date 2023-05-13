@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import ProjectCard from "./ProjectCard";
 import TeamCard from "./TeamCard";
 import BlogCard from "./BlogCard";
+import PricingCard from "./PricingCard";
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Footer,
     ProjectCard,
     TeamCard,
-    BlogCard
+    BlogCard,
+    PricingCard
 }

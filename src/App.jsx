@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import {
-  About,
+  AboutUs,
   Blog,
   BlogSingle,
   Contact,
@@ -24,7 +24,7 @@ const App = () => {
         <div className="relative w-full h-full">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
             <Route path="/services-details" element={<ServicesDetails />} />
             <Route path="/contact" element={<Contact />} />
