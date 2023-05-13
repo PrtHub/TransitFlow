@@ -23,6 +23,7 @@ import Tech from './Tech.png'
 import calender from './calender.png'
 import port from './port.png'
 import about from './about.png'
+import Truck from './Truck.png'
 
 export {
     Banner,
@@ -49,5 +50,6 @@ export {
     business,
     calender,
     port,
-    about
+    about,
+    Truck
 }
