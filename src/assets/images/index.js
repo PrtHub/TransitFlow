@@ -26,6 +26,7 @@ import about from './about.png'
 import Truck from './Truck.png'
 import customer from './customer.png'
 import project from './project.png'
+import faq from './faq.png'
 
 export {
     Banner,
@@ -55,5 +56,6 @@ export {
     about,
     Truck,
     customer,
-    project
+    project,
+    faq
 }

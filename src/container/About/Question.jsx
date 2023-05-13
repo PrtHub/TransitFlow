@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineRight, AiOutlineDown } from "react-icons/ai";
+import { faq } from "../../assets/images";
 
 const Question = () => {
   
@@ -43,9 +44,11 @@ const Question = () => {
   return (
     <>
       <div className="w-full h-full bg-white">
-        <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-10 py-20 px-7 xl:px-0">
-          <div className="w-full h-full flex flex-col justify-start items-start gap-10">
-            <div className="flex flex-col justify-start items-start gap-5 font-Rubik">
+        <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col-reverse lg:flex-row items-center 
+        justify-between gap-10 py-20 px-7 xl:px-0">
+
+          <div className="w-full h-full flex flex-col justify-start items-center gap-10">
+            <div className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col justify-start items-start gap-5 font-Rubik">
               <p className="head-text">FAQ</p>
               <h1 className="header-text">
                 Frequently Asked <br />
@@ -55,7 +58,7 @@ const Question = () => {
             {faqItems.map((item, index) => (
               <div
                 key={item.id}
-                className="w-full sm:w-[565px] max-w-[565px] h-full flex flex-col gap-2 items-start justify-start"
+                className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col gap-2 items-center justify-start"
               >
                 <div className="w-full h-full flex justify-between items-center">
                   <h3 className="font-Rubik font-normal text-lg text-black-200 cursor-pointer">
@@ -86,6 +89,11 @@ const Question = () => {
               </div>
             ))}
           </div>
+
+          <div className="w-full h-full sm:w-[520px] sm:h-[400px] md:w-[620px] md:h-[449px] lg:w-[682px] lg:h-[539px] ">
+              <img src={faq} alt="" className="w-full h-full object-cover"/>
+          </div>
+
         </div>
       </div>
     </>
