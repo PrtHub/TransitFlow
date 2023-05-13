@@ -23,7 +23,7 @@
 }
 
 .para{
-  @apply font-Krub text-[#666C89] font-medium md:text-sm lg:text-base
+  @apply font-Krub text-[#666C89] font-medium text-sm lg:text-base
 }
 
 .icon {
