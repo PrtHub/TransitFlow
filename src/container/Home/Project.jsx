@@ -1,5 +1,5 @@
-import { ProjectCard } from "../components"
-import { one, two, three, four, five } from "../assets/images"
+import { ProjectCard } from "../../components"
+import { one, two, three, four, five } from "../../assets/images"
 
 const Project = () => {
   return (
@@ -15,7 +15,7 @@ const Project = () => {
       </div>
       <div className="z-0 -mt-32 background w-full h-72">
         <div className="w-full h-full flex items-center justify-center mt-6">
-          <button className="bg-[#091242] px-6 py-3 text-white">More work</button>
+          <button className="bg-black-300 px-6 py-3 text-white">More work</button>
         </div>
       </div>
     </div>

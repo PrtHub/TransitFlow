@@ -25,10 +25,10 @@ const Testimonial = () => {
                     className="w-14 h-14 sm:w-20 sm:h-20"
                   />
                   <div className="flex flex-col items-start justify-start">
-                    <h1 className="font-Rubik text-base sm:text-xl text-[#1C1F35] font-medium">
+                    <h1 className="font-Rubik text-base sm:text-xl text-black-200 font-medium">
                       Kathleen Smith
                     </h1>
-                    <p className="text-[#091242] text-xs sm:text-sm font-medium">
+                    <p className="text-black-300 text-xs sm:text-sm font-medium">
                       Fuel Company
                     </p>
                   </div>
@@ -42,7 +42,7 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className="w-full h-full font-Krub text-xs sm:text-base">
-                <p className="text-[#666C89]">
+                <p className="text-light-gray">
                   Leverage agile frameworks to provide a robust synopsis for
                   strategy foster collaborative thinking to further the overall
                   value proposition. Organically grow the holistic world view of
@@ -53,7 +53,7 @@ const Testimonial = () => {
                 <img src={Star} alt="" className="w-32 sm:w-full sm:h-full" />
               </div>
             </div>
-            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-[#091242] p-6 sm:p-16">
+            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-black-300 p-6 sm:p-16">
               <div className="w-full h-full flex items-center gap-2">
                 <div className="w-full h-full flex items-center gap-2">
                   <img

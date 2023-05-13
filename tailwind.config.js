@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "black-200": "#1C1F35",
+        "black-300": "#091242",
+        "light-gray": "#666C89"
+      },
       fontFamily: {
         Rubik: ['Rubik', 'sans-serif'],
         Krub: ['Krub', 'sans-serif'],

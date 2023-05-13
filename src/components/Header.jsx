@@ -6,7 +6,7 @@ import { Logo } from '../assets/icons'
 const Header = () => {
   return (
     <>
-     <header className='w-full h-full bg-[#091242] hidden md:block'>
+     <header className='w-full h-full bg-black-300 hidden md:block'>
       <div className='w-full xl:w-[1200px] h-full mx-auto flex items-center justify-between py-7 px-7 xl:px-0 gap-9'>
         <div className='flex items-center justify-center w-44 h-11 lg:w-48 lg:h-12'>
           <img src={Logo} alt="Logo" className='w-full h-full object-contain' />

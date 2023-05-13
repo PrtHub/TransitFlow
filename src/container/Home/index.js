@@ -3,9 +3,9 @@ import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Service from "./Service";
-import Testimonial from "./Testimonial";
+import Testimonial from "../Testimonial";
 import Choose from "./Choose";
-import Team from "./Team";
+import Team from "../Team";
 import Project from "./Project";
 
 export {

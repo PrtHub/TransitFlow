@@ -59,7 +59,7 @@ const Navbar = () => {
                 <AiOutlineDown className="w-3 h-3" />
               </a>
               {openPage && (
-                <ul className="absolute top-6 w-20 h-12 bg-black px-2 py-1 flex flex-col  gap-2">
+                <ul className="absolute top-6 w-24 h-fit bg-[#091242] bg-opacity-25 mt-7 p-3 flex flex-col  gap-2">
                   <li>
                     <Link to="/services">Services</Link>
                   </li>
@@ -113,21 +113,21 @@ const Navbar = () => {
               />
             )}
             {toggleMenu && (
-              <div className="bg-[#091242] fixed top-0 left-0 w-full h-fit">
+              <div className="bg-black-300 fixed top-0 left-0 w-full h-fit">
                 <AiOutlineClose
                   className="w-6 h-6 text-white cursor-pointer absolute top-5 right-5"
                   onClick={() => setToggleMenu(false)}
                 />
                 <ul className="z-10 text-white flex flex-col items-center justify-center gap-8 p-8">
                   <li className="text-lg font-medium">
-                    <Link to="/" className={`${loactionPath("/") && "text-[#666C89]"} `}>
+                    <Link to="/" className={`${loactionPath("/") && "text-light-gray"} `}>
                       Home
                     </Link>
                   </li>
                   <li  className="text-lg font-medium">
                     <Link
                       to="/about"
-                      className={`${loactionPath("/about") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/about") && "text-light-gray"}`}
                     >
                       About
                     </Link>
@@ -135,7 +135,7 @@ const Navbar = () => {
                   <li  className="text-lg font-medium">
                     <Link
                       to="/services"
-                      className={`${loactionPath("/services") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/services") && "text-light-gray"}`}
                     >
                       Services
                     </Link>
@@ -143,7 +143,7 @@ const Navbar = () => {
                   <li  className="text-lg font-medium">
                     <Link
                       to="/blog"
-                      className={`${loactionPath("/blog") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/blog") && "text-light-gray"}`}
                     >
                       Blog
                     </Link>
@@ -151,7 +151,7 @@ const Navbar = () => {
                   <li  className="text-lg font-medium">
                     <Link
                       to="/projects"
-                      className={`${loactionPath("/projects") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/projects") && "text-light-gray"}`}
                     >
                       Projects
                     </Link>
@@ -159,7 +159,7 @@ const Navbar = () => {
                   <li  className="text-lg font-medium">
                     <Link
                       to="/tech"
-                      className={`${loactionPath("/tech") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/tech") && "text-light-gray"}`}
                     >
                       Tech
                     </Link>
@@ -167,7 +167,7 @@ const Navbar = () => {
                   <li className="text-lg font-medium">
                     <Link
                       to="/pricing"
-                      className={`${loactionPath("/pricing") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/pricing") && "text-light-gray"}`}
                     >
                       Pricing
                     </Link>
@@ -175,7 +175,7 @@ const Navbar = () => {
                   <li className="text-lg font-medium">
                     <Link
                       to="/contact"
-                      className={`${loactionPath("/contact") && "text-[#666C89]"}`}
+                      className={`${loactionPath("/contact") && "text-light-gray"}`}
                     >
                       Contact
                     </Link>

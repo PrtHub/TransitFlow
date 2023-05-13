@@ -25,4 +25,11 @@
 .para{
   @apply font-Krub text-[#666C89] font-medium md:text-sm lg:text-base
 }
+
+.icon {
+  @apply background w-8 h-8 p-2 rounded-full
+}
   
+.icon-text {
+  @apply text-base md:text-lg font-Rubik font-normal
+}

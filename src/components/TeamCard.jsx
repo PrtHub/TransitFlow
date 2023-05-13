@@ -10,7 +10,7 @@ import {
 const TeamCard = ({img, name, job}) => {
   return (
     <>
-      <div className="w-[344px] h-[500px] bg-[#1C1F35] relative">
+      <div className="w-[344px] h-[500px] bg-black-200 relative">
         <div className="w-full h-[410px]">
           <img
             src={img}
@@ -22,7 +22,7 @@ const TeamCard = ({img, name, job}) => {
           <h2 className="font-Rubik font-medium text-xl">{name}</h2>
           <p className="font-Krub font-medium text-sm">{job}</p>
         </div>
-        <div className="absolute right-0 bottom-[78px] background w-fit h-fit flex items-center gap-2 p-1 text-[#1C1F35]">
+        <div className="absolute right-0 bottom-[78px] background w-fit h-fit flex items-center gap-2 p-1 text-black-200">
           <AiOutlineInstagram className="w-6 h-6 cursor-pointer" />
           <AiFillFacebook className="w-6 h-6  cursor-pointer" />
           <AiOutlineTwitter className="w-6 h-6 cursor-pointer" />

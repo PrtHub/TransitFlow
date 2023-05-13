@@ -1,5 +1,5 @@
 import { port } from "../assets/images"
-import {About, Blog, Choose, Contact, Hero, Project, Service, Team, Testimonial } from "../container"
+import {About, Blog, Choose, Contact, Hero, Project, Service, Team, Testimonial } from "../container/Home"
 
 
 const Home = () => {

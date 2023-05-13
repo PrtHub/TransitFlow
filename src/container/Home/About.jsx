@@ -1,4 +1,4 @@
-import { AboutBg, Air } from "../assets/images";
+import { AboutBg, Air } from "../../assets/images";
 import { BsBox } from "react-icons/bs";
 import { BiMoney } from "react-icons/bi";
 
@@ -18,7 +18,7 @@ const About = () => {
             <p className="head-text">
               Why us
             </p>
-            <h1 className="font-Rubik text-2xl md:text-xl lg:text-3xl text-[#1C1F35] font-semibold">
+            <h1 className="header-text">
               We provide full range global logistics solution
             </h1>
             <p className="para">
@@ -31,14 +31,14 @@ const About = () => {
               via workplace diversity and empowerment.
             </p>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <BsBox className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <BsBox className="icon" />
+              <p className="icon-text">
                 Delivery on Time
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <BiMoney className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <BiMoney className="icon" />
+              <p className="icon-text">
                 Optimized Travel Cost
               </p>
             </div>
@@ -50,12 +50,12 @@ const About = () => {
 
           <div className="w-full h-full flex flex-col sm:flex-row  items-center justify-center gap-10 p-10">
              <div className="flex items-center gap-3">
-                <h1 className="text-3xl md:text-5xl font-semibold text-[#1C1F35]">1294</h1>
+                <h1 className="text-3xl md:text-5xl font-semibold text-black-200">1294</h1>
                 <div className="w-4 h-4 background"/>
                 <p className="font-League text-base">Delivered Packages</p>
              </div>
              <div className="flex items-center gap-3">
-                <h1 className="text-3xl md:text-5xl font-semibold text-[#1C1F35]">3594</h1>
+                <h1 className="text-3xl md:text-5xl font-semibold text-black-200">3594</h1>
                 <div className="w-4 h-4 background"/>
                 <p className="font-League text-base">Satisfied Clients</p>
              </div>

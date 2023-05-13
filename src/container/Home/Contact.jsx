@@ -1,11 +1,11 @@
 import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
 import { IoCallOutline } from "react-icons/io5";
-import { client1, client2, client3, client4 } from "../assets/images";
+import { client1, client2, client3, client4 } from "../../assets/images";
 
 const Contact = () => {
   return (
     <>
-      <div className="w-full h-full bg-[#091242]">
+      <div className="w-full h-full bg-black-300">
         <div className="w-full xl:w-[1200px] h-full flex flex-col items-center justify-between mx-auto gap-10 sm:gap-14 py-20 px-7 xl:px-0">
           <div className="w-full h-full flex flex-col md:flex-row justify-around items-start gap-10">
             <div className="w-full flex flex-col items-start justify-between gap-5 ">

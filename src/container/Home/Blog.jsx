@@ -1,5 +1,5 @@
-import { Tech, broker, business } from "../assets/images"
-import { BlogCard } from "../components"
+import { Tech, broker, business } from "../../assets/images"
+import { BlogCard } from "../../components"
 
 
 const Blog = () => {
@@ -21,7 +21,7 @@ const Blog = () => {
             <BlogCard img={broker} title="Five things you should have ready for your broker" date="16"/>
           </div>
           <div className="font-Krub">
-              <button className="bg-[#091242] text-base px-8 py-3 text-white">More Blog</button>
+              <button className="bg-black-300 text-base px-8 py-3 text-white">More Blog</button>
           </div>
        </div>
      </div>

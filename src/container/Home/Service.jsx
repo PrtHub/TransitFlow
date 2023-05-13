@@ -1,4 +1,4 @@
-import { ship, Flight, warehouse, Truck } from "../assets/icons";
+import { ship, Flight, warehouse, Truck } from "../../assets/icons";
 
 const Service = () => {
   return (
@@ -21,7 +21,7 @@ const Service = () => {
                 className="w-7 h-7 md:w-8 md:h-8 object-cover"
               />
               <div className="flex flex-col items-start justify-start gap-1">
-                <h2 className="font-Rubik text-xl md:text-2xl  text-[#1C1F35]">
+                <h2 className="font-Rubik text-xl md:text-2xl  text-black-200">
                   Sea Transport Services
                 </h2>
                 <p className="font-Krub text-xs md:text-sm max-w-xs text-[#666C89]">
@@ -37,10 +37,10 @@ const Service = () => {
                 className="w-7 h-7 md:w-8 md:h-8 object-cover"
               />
               <div className="flex flex-col items-start justify-start gap-1">
-                <h2 className="font-Rubik  text-xl md:text-2xl  text-[#1C1F35]">
+                <h2 className="font-Rubik  text-xl md:text-2xl  text-black-200">
                   Warehousing Services
                 </h2>
-                <p className=" font-Krub text-xs md:text-sm max-w-xs text-[#666C89]">
+                <p className=" font-Krub text-xs md:text-sm max-w-xs text-light-gray">
                   Following the quality of our service thus having gained trust
                   of our many clients.
                 </p>
@@ -53,10 +53,10 @@ const Service = () => {
                 className="w-7 h-7 md:w-8 md:h-8 object-cover"
               />
               <div className="flex flex-col items-start justify-start gap-1">
-                <h2 className="font-Rubik  text-xl md:text-2xl text-[#1C1F35]">
+                <h2 className="font-Rubik  text-xl md:text-2xl text-black-200">
                   Air Fright Services
                 </h2>
-                <p className=" font-Krub text-xs md:text-sm max-w-xs text-[#666C89]">
+                <p className=" font-Krub text-xs md:text-sm max-w-xs text-light-gray">
                   Following the quality of our service thus having gained trust
                   of our many clients.
                 </p>
@@ -69,10 +69,10 @@ const Service = () => {
                 className="w-7 h-7 md:w-8 md:h-8object-cover"
               />
               <div className="flex flex-col items-start justify-start gap-1">
-                <h2 className="font-Rubik  text-xl md:text-2xl text-[#1C1F35]">
+                <h2 className="font-Rubik  text-xl md:text-2xl text-black-200">
                   Local Shipping Services
                 </h2>
-                <p className=" font-Krub text-xs md:text-sm max-w-xs text-[#666C89]">
+                <p className=" font-Krub text-xs md:text-sm max-w-xs text-light-gray">
                   Following the quality of our service thus having gained trust
                   of our many clients.
                 </p>

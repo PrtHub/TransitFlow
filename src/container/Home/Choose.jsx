@@ -3,7 +3,7 @@ import { AiOutlineGlobal, AiOutlineClockCircle } from "react-icons/ai"
 import { MdOutlineHeadsetMic } from "react-icons/md"
 import { RiShipLine } from "react-icons/ri"
 import { ImPriceTags } from "react-icons/im"
-import { plane } from "../assets/images"
+import { plane } from "../../assets/images"
 
 
 const Choose = () => {
@@ -25,38 +25,38 @@ const Choose = () => {
 
             <div className="grid grid-cols-2 gap-5">
             <div className="flex items-center justify-start gap-2 mt-2">
-              <BsBox className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <BsBox className="icon" />
+              <p className="icon-text">
                 Delivery on Time
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <RiShipLine className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <RiShipLine className="icon" />
+              <p className="icon-text">
               Ship Everyware
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <AiOutlineGlobal className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <AiOutlineGlobal className="icon" />
+              <p className="icon-text">
               Global Tracking
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <MdOutlineHeadsetMic className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <MdOutlineHeadsetMic className="icon" />
+              <p className="icon-text">
               24/7 Support
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <AiOutlineClockCircle className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <AiOutlineClockCircle className="icon" />
+              <p className="icon-text">
               In Time Delivery
               </p>
             </div>
             <div className="flex items-center justify-start gap-2 mt-2">
-              <ImPriceTags className="background w-7 h-7 p-2 rounded-full" />
-              <p className="text-base md:text-lg font-Rubik font-normal">
+              <ImPriceTags className="icon" />
+              <p className="icon-text">
               Transparant Pricing
               </p>
             </div>
