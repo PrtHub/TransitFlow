@@ -16,7 +16,8 @@ const Testimonial = () => {
           </div>
 
           <div className="w-full h-full flex flex-col lg:flex-row  items-center justify-center gap-10">
-            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-[#F4F4F4] p-6 sm:p-16">
+
+            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-[#F4F4F4] p-6 sm:p-10">
               <div className="w-full h-full flex items-center gap-2">
                 <div className="w-full h-full flex items-center gap-2">
                   <img
@@ -53,7 +54,8 @@ const Testimonial = () => {
                 <img src={Star} alt="" className="w-32 sm:w-full sm:h-full" />
               </div>
             </div>
-            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-black-300 p-6 sm:p-16">
+
+            <div className="w-full sm:w-[600px] h-full flex flex-col items-start justify-start gap-4 bg-black-300 p-6 sm:p-10">
               <div className="w-full h-full flex items-center gap-2">
                 <div className="w-full h-full flex items-center gap-2">
                   <img

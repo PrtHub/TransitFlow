@@ -14,7 +14,7 @@ const Team = () => {
               Meet Expert Team
             </h1>
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-10">
+          <div className="flex flex-wrap items-center justify-center gap-14">
              <TeamCard img={Jessca} name="Jessca Arow" job="Designer"/>
              <TeamCard img={kathleen} name="Kathleen Smith" job="Designer"/>
              <TeamCard img={Tylor} name="Rebecca Tylor" job="Designer"/>
