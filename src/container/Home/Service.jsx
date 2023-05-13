@@ -14,14 +14,14 @@ const Service = () => {
             </h1>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
-            <div className="flex items-start justify-start gap-4">
+            <div className="flex  items-start justify-start gap-4">
               <img
                 src={ship}
                 alt="ship"
                 className="w-7 h-7 md:w-8 md:h-8 object-cover"
               />
               <div className="flex flex-col items-start justify-start gap-1">
-                <h2 className="font-Rubik text-xl md:text-2xl  text-black-200">
+                <h2 className="font-Rubik text-xl md:text-2xl text-black-200">
                   Sea Transport Services
                 </h2>
                 <p className="font-Krub text-xs md:text-sm max-w-xs text-[#666C89]">
