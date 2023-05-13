@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { AiOutlineRight, AiOutlineDown } from "react-icons/ai";
 import { faq } from "../../assets/images";
+import { IoCallOutline } from "react-icons/io5";
 
 const Question = () => {
-  
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleItemClick = (index) => {
@@ -43,11 +43,12 @@ const Question = () => {
 
   return (
     <>
-      <div className="w-full h-full bg-white">
-        <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col-reverse lg:flex-row items-center 
-        justify-between gap-10 py-20 px-7 xl:px-0">
-
-          <div className="w-full h-full flex flex-col justify-start items-center gap-10">
+      <div className="w-full h-full bg-white flex lg:justify-end">
+        <div
+          className="w-full xl:w-[1500x] h-full flex flex-col-reverse lg:flex-row items-center 
+        justify-between gap-20 py-20 xl:px-0"
+        >
+          <div className="w-full h-full flex flex-col justify-between items-center gap-10">
             <div className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col justify-start items-start gap-5 font-Rubik">
               <p className="head-text">FAQ</p>
               <h1 className="header-text">
@@ -90,10 +91,28 @@ const Question = () => {
             ))}
           </div>
 
-          <div className="w-full h-full sm:w-[520px] sm:h-[400px] md:w-[620px] md:h-[449px] lg:w-[682px] lg:h-[539px] ">
-              <img src={faq} alt="" className="w-full h-full object-cover"/>
-          </div>
+          <div className="w-full h-full sm:w-[520px] sm:h-[400px] md:w-[620px] md:h-[449px] lg:w-full lg:h-full relative">
+            <img src={faq} alt="" className="w-full h-full object-cover" />
 
+            <div className="sm:w-[270px] sm:h-[230px] md:w-[300px] md:h-[250px]  lg:w-[260px] lg:h-[230px] xl:w-[300px] xl:h-[250px] bg-black-300 absolute top-0 bottom-0 -left-20  my-auto p-6 hidden sm:flex items-start justify-center flex-col gap-2">
+              <p className=" text-xs text-white font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2">
+                Let's Talk
+              </p>
+              <h1 className="text-white sm:text-base xl:text-lg font-Rubik font-medium">
+                You need any help? get free consultation
+              </h1>
+              <div className="flex items-center justify-start gap-2 lg:gap-3">
+                <IoCallOutline className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 xl:p-3 xl:w-11 xl:h-11 text-white" />
+                <div className="flex flex-col items-start justify-start text-white font-normal text-xs xl:text-sm">
+                  <p>Have a question?</p>
+                  <p>(00) 112 365 489</p>
+                </div>
+              </div>
+              <button className="background text-[#23212A] text-sm px-4 py-2 mt-2">
+                Contact Us
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
