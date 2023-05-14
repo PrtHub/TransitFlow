@@ -10,7 +10,7 @@ const HeroCard = ({ img, header, para, span }) => {
         <p className="font-Rubik text-white text-xs font-normal border-l-4 border-l-dark-yellow-200 px-2">
           {para}
         </p>
-        <h1 className="font-Rubik text-2xl md:text-3xl lg:text-4xl  text-white font-bold">
+        <h1 className="max-w-xs sm:max-w-2xl font-Rubik text-2xl md:text-3xl lg:text-4xl  text-white font-bold">
           {header} <br /> {span}
         </h1>
       </div>
