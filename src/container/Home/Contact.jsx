@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="w-full h-full flex flex-col md:flex-row justify-around items-start gap-10">
             <div className="w-full flex flex-col items-start justify-between gap-5 ">
               <div className="max-w-[353px] flex flex-col items-start justify-start gap-2 text-white">
-                <p className="text-xs font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2">
+                <p className="text-xs font-Rubik font-normal border-l-4 border-l-dark-yellow-200 px-2">
                   Contact
                 </p>
                 <h1 className="font-Rubik text-2xl md:text-xl lg:text-3xl font-semibold">
@@ -24,21 +24,21 @@ const Contact = () => {
               </div>
               <div className="flex flex-col items-start justify-between font-Krub gap-9">
                 <div className="flex items-center justify-start gap-2 lg:gap-3">
-                  <AiOutlineMail className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-[#F6B426]" />
+                  <AiOutlineMail className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-dark-yellow-200" />
                   <div className="flex flex-col items-start justify-start text-white font-normal text-xs lg:text-sm">
                     <p>Email</p>
                     <p>contact@logistics.com</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-start gap-2 lg:gap-3">
-                  <IoCallOutline className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-[#F6B426]" />
+                  <IoCallOutline className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-dark-yellow-200" />
                   <div className="flex flex-col items-start justify-start text-white font-normal text-xs lg:text-sm">
                     <p>Call us</p>
                     <p>(00) 112 365 489</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-start gap-2 lg:gap-3">
-                  <AiOutlineClockCircle className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-[#F6B426]" />
+                  <AiOutlineClockCircle className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-dark-yellow-200" />
                   <div className="flex flex-col items-start justify-start text-white font-normal text-xs lg:text-sm">
                     <p>Mon - Sat 9.00 - 18.00</p>
                     <p>Sunday Closed</p>

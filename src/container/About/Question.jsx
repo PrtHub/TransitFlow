@@ -95,7 +95,7 @@ const Question = () => {
             <img src={faq} alt="" className="w-full h-full object-cover" />
 
             <div className="sm:w-[270px] sm:h-[230px] md:w-[300px] md:h-[250px]  lg:w-[260px] lg:h-[230px] xl:w-[300px] xl:h-[250px] bg-black-300 absolute top-0 bottom-0 -left-20  my-auto p-6 hidden sm:flex items-start justify-center flex-col gap-2">
-              <p className=" text-xs text-white font-Rubik font-normal border-l-4 border-l-[#FFB629] px-2">
+              <p className=" text-xs text-white font-Rubik font-normal border-l-4 border-l-dark-yellow-200 px-2">
                 Let's Talk
               </p>
               <h1 className="text-white sm:text-base xl:text-lg font-Rubik font-medium">

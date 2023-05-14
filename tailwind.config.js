@@ -6,7 +6,10 @@ export default {
       colors: {
         "black-200": "#1C1F35",
         "black-300": "#091242",
-        "light-gray": "#666C89"
+        "light-gray": "#666C89",
+        "dark-yellow": "#FFBE34",
+        "dark-yellow-100": "#FFB82B",
+        "dark-yellow-200": '#FFB629'
       },
       fontFamily: {
         Rubik: ['Rubik', 'sans-serif'],

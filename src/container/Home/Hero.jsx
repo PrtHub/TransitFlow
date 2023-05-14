@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
 
         <div className="w-full h-full font-Rubik text-white flex flex-col items-start gap-2 md:gap-3 absolute top-44 sm:top-64 md:top-72 lg:top-64 left-5 sm:left-10 md:left-10 lg:left-48">
-          <p className="text-[10px] sm:text-xs bg-[#041C37] bg-opacity-50 px-1 border-l-4 border-l-[#FFB629]">
+          <p className="text-[10px] sm:text-xs bg-[#041C37] bg-opacity-50 px-1 border-l-4 border-l-dark-yellow-200">
             Logistics & Supply Chain Solutions
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">

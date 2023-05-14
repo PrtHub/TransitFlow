@@ -24,7 +24,7 @@ const BlogCard = ({ img, title, date}) => {
                </div>
            </div>
            <div className="max-w-[335px] h-full flex flex-col justify-start items-start gap-2">
-               <h2 className="font-Rubik text-xl font-normal hover:text-[#FFBE34] cursor-pointer focus:text-[#FFBE34] transition-all duration-200">{title}</h2>
+               <h2 className="font-Rubik text-xl font-normal hover:text-dark-yellow cursor-pointer focus:text-dark-yellow transition-all duration-200">{title}</h2>
                <p className="para">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
                <ul className="flex flex-col items-start gap-1 p-4 list-disc font-Krub text-black-200 text-sm">
                 <li>Urgent transport solutions</li>

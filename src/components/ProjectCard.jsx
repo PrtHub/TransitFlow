@@ -10,7 +10,7 @@ const ProjectCard = ({ img, title, desc }) => {
         </div>
        <div className="absolute bottom-1 font-Rubik p-2">
         <h3 className="font-medium text-xl text-white">{title}</h3>
-        <p className="font-medium text-base text-[#FFB629]">{desc}</p>
+        <p className="font-medium text-base text-dark-yellow-200">{desc}</p>
        </div>
     </div>
     </>

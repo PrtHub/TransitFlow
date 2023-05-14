@@ -17,7 +17,7 @@ const About = () => {
             proposition.
           </p>
           <div className="flex items-center gap-2">
-            <button className="text-white font-Krub text-sm md:text-base font-medium bg-[#FFB82B] px-6 py-3">
+            <button className="text-white font-Krub text-sm md:text-base font-medium bg-dark-yellow-100 px-6 py-3">
               Our Approch
             </button>
             <button className="text-black-200 font-Krub text-sm md:text-base font-medium  bg-[#F4F4F4]   px-6 py-3">
