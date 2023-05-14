@@ -1,26 +1,32 @@
 import { useNavigate } from "react-router-dom";
-import { BlogBanner, Tech, broker, business, driver, manager } from "../assets/images";
+import {
+  BlogBanner,
+  Tech,
+  broker,
+  business,
+  driver,
+  manager,
+} from "../assets/images";
 import { BlogCard, HeroCard } from "../components";
-
 
 const Blog = () => {
   const navigate = useNavigate();
-  const HandleClick= (destination) => {
-   navigate(destination)
-  }
+  const HandleClick = (destination) => {
+    navigate(destination);
+  };
   return (
     <>
       <div className="w-full h-full">
-        <div className="w-full h-[310px] sm:h-[330px] lg:h-[370px] xl:h-full z-0 relative">
+        <section className="w-full h-[310px] sm:h-[330px] lg:h-[370px] xl:h-full z-0 relative">
           <HeroCard img={BlogBanner} para="Blog" header="Our Latest News" />
-        </div>
-        <div className="w-full h-full bg-white">
+        </section>
+        <section className="w-full h-full bg-white">
           <div className="w-full lg:w-[948px] h-full mx-auto flex flex-col items-center justify-between gap-10 sm:gap-14 py-20 px-7 xl:px-0 ">
-            <div className="flex flex-col items-center justify-center gap-2 font-Rubik ">
+            <section className="flex flex-col items-center justify-center gap-2 font-Rubik ">
               <p className="head-text">Our Blog</p>
               <h1 className="header-text">Our Latest News</h1>
-            </div>
-            <div className="w-full h-full flex flex-col items-center justify-center gap-10">
+            </section>
+            <section className="w-full h-full flex flex-col items-center justify-center gap-10">
               <BlogCard
                 img={business}
                 title="Inland freight a worthy solution for your business"
@@ -48,9 +54,9 @@ const Blog = () => {
                 title="What Is The Role Of A Logistics Operations Manager"
                 date="30"
               />
-            </div>
+            </section>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

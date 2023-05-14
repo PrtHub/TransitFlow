@@ -6,14 +6,14 @@ const About = () => {
   return (
     <>
       <div className="w-full h-full  bg-white flex flex-col ">
-        <div className="w-full h-full z-0">
+        <section className="w-full h-full z-0">
           <img
             src={AboutBg}
             alt="Background"
             className="w-full h-full object-contain"
           />
-        </div>
-        <div className="sm:w-[600px] md:w-[700px] lg:w-[900px] xl:w-[1200px] h-fit mx-auto bg-white flex flex-col md:flex-row items-start justify-center gap-5 z-10 sm:-mt-16 md:-mt-24 lg:-mt-28 xl:-mt-32 p-10">
+        </section>
+        <section className="sm:w-[600px] md:w-[700px] lg:w-[900px] xl:w-[1200px] h-fit mx-auto bg-white flex flex-col md:flex-row items-start justify-center gap-5 z-10 sm:-mt-16 md:-mt-24 lg:-mt-28 xl:-mt-32 p-10">
           <div className="w-full md:w-[350px] lg:w-[400px] xl:w-[472px] h-full flex flex-col items-start justify-start gap-4">
             <p className="head-text">
               Why us
@@ -46,9 +46,9 @@ const About = () => {
           <div className="w-full h-full md:w-[400px] md:h-[350px] lg:w-[450px] lg:h-[400px] ">
             <img src={Air} alt="" className="w-full h-full" />
           </div>
-        </div>
+        </section>
 
-          <div className="w-full h-full flex flex-col sm:flex-row  items-center justify-center gap-10 p-10">
+          <section className="w-full h-full flex flex-col sm:flex-row  items-center justify-center gap-10 p-10">
              <div className="flex items-center gap-3">
                 <h1 className="text-3xl md:text-5xl font-semibold text-black-200">1294</h1>
                 <div className="w-4 h-4 background"/>
@@ -59,7 +59,7 @@ const About = () => {
                 <div className="w-4 h-4 background"/>
                 <p className="font-League text-base">Satisfied Clients</p>
              </div>
-          </div>
+          </section>
       </div>
     </>
   );

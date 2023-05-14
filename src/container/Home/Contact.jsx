@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="w-full xl:w-[1200px] h-full flex flex-col items-center justify-between mx-auto gap-10 sm:gap-14 py-20 px-7 xl:px-0">
           <div className="w-full h-full flex flex-col md:flex-row justify-around items-start gap-10">
             <div className="w-full flex flex-col items-start justify-between gap-5 ">
-              <div className="max-w-[353px] flex flex-col items-start justify-start gap-2 text-white">
+              <section className="max-w-[353px] flex flex-col items-start justify-start gap-2 text-white">
                 <p className="text-xs font-Rubik font-normal border-l-4 border-l-dark-yellow-200 px-2">
                   Contact
                 </p>
@@ -21,8 +21,8 @@ const Contact = () => {
                   strategy foster collaborative thinking to further the overall
                   value proposition.{" "}
                 </p>
-              </div>
-              <div className="flex flex-col items-start justify-between font-Krub gap-9">
+              </section>
+              <section className="flex flex-col items-start justify-between font-Krub gap-9">
                 <div className="flex items-center justify-start gap-2 lg:gap-3">
                   <AiOutlineMail className="bg-[#273270] bg-opacity-40 rounded-full p-2 w-9 h-9 lg:p-3 lg:w-11 lg:h-11 text-dark-yellow-200" />
                   <div className="flex flex-col items-start justify-start text-white font-normal text-xs lg:text-sm">
@@ -44,10 +44,10 @@ const Contact = () => {
                     <p>Sunday Closed</p>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
 
-            <div className="w-full flex items-center md:items-start flex-col  justify-center gap-8 font-League">
+            <section className="w-full flex items-center md:items-start flex-col  justify-center gap-8 font-League">
               <form className="w-full grid grid-cols-1 xl:grid-cols-2 gap-8">
                 <input
                   type="text"
@@ -70,8 +70,12 @@ const Contact = () => {
                   placeholder="Phone Number*"
                   className="w-full border-[1px] border-[#4E5683] bg-transparent outline-none placeholder:text-white text-white px-5 py-3 font-normal"
                 />
-                <input type="text" name="city" id="city" placeholder="City*" 
-                className="w-full border-[1px] border-[#4E5683] bg-transparent outline-none placeholder:text-white text-white px-5 py-3 font-normal"
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  placeholder="City*"
+                  className="w-full border-[1px] border-[#4E5683] bg-transparent outline-none placeholder:text-white text-white px-5 py-3 font-normal"
                 />
               </form>
               <textarea
@@ -86,16 +90,31 @@ const Contact = () => {
               >
                 Submit Message{" "}
               </button>
-            </div>
+            </section>
           </div>
 
-            <div className="w-full  flex flex-wrap items-end justify-center">
-              <img src={client1} alt=""  className="w-[299px] h-[230px] object-contain" />
-              <img src={client2} alt=""  className="w-w-[299px] h-[230px] object-contain"/>
-              <img src={client3} alt=""  className="w-w-[299px] h-[230px] object-contain "/>
-              <img src={client4} alt=""  className="w-w-[299px] h-[230px] object-contain"/>
-            </div>
-
+          <section className="w-full  flex flex-wrap items-end justify-center">
+            <img
+              src={client1}
+              alt=""
+              className="w-[299px] h-[230px] object-contain"
+            />
+            <img
+              src={client2}
+              alt=""
+              className="w-w-[299px] h-[230px] object-contain"
+            />
+            <img
+              src={client3}
+              alt=""
+              className="w-w-[299px] h-[230px] object-contain "
+            />
+            <img
+              src={client4}
+              alt=""
+              className="w-w-[299px] h-[230px] object-contain"
+            />
+          </section>
         </div>
       </div>
     </>

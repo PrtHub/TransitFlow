@@ -4,7 +4,7 @@
 const ProjectCard = ({ img, title, desc }) => {
   return (
     <>
-    <div className="w-80 h-96 relative">
+    <section className="w-80 h-96 relative">
         <div className="w-full h-full">
        <img src={img} alt="one" className="w-full h-full"/>
         </div>
@@ -12,7 +12,7 @@ const ProjectCard = ({ img, title, desc }) => {
         <h3 className="font-medium text-xl text-white">{title}</h3>
         <p className="font-medium text-base text-dark-yellow-200">{desc}</p>
        </div>
-    </div>
+    </section>
     </>
   )
 }

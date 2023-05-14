@@ -12,12 +12,12 @@ import { Logo } from "../assets/icons";
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-full bg-black-300">
+      <Footer className="w-full h-full bg-black-300">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col items-start  gap-10 sm:gap-14 py-10 px-7 xl:px-0">
-          <div className="flex items-start justify-start ">
+          <section className="flex items-start justify-start ">
             <img src={Logo} alt="" />
-          </div>
-          <div className="w-full flex justify-between items-start flex-col md:flex-row gap-10">
+          </section>
+          <section className="w-full flex justify-between items-start flex-col md:flex-row gap-10">
             <div className="max-w-[300px] flex flex-col items-start justify-start gap-4">
               <p className="font-Krub text-[#E8E8E8] text-base">
                 Leverage agile frameworks to provide a robust synopsis for
@@ -73,9 +73,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
      
-          <div className="w-full flex flex-col-reverse md:flex-row border-t-[1px] border-t-[#4E5683]  items-center justify-between gap-5 font-Krub pt-10">
+          <section className="w-full flex flex-col-reverse md:flex-row border-t-[1px] border-t-[#4E5683]  items-center justify-between gap-5 font-Krub pt-10">
             <p className="text-white font-medium text-sm">Copyright ©TransitFlow 2023</p>
             <ul className="flex items-center justify-center gap-5 text-[#8388A7] text-sm">
               <li>Style Guide</li>
@@ -83,9 +83,9 @@ const Footer = () => {
               <li>Changelog</li>
               <li>Password</li>
             </ul>
-          </div>
+          </section>
         </div>
-      </div>
+      </Footer>
     </>
   );
 };

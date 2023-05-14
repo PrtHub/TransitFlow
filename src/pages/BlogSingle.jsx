@@ -5,7 +5,7 @@ import { BlogSingleCard, HeroCard } from "../components";
 const BlogSingle = () => {
   return (
     <>
-      <div className="w-full h-full ">
+      <section className="w-full h-full ">
         <div className="w-full h-[310px] sm:h-[330px] lg:h-[370px] xl:h-full z-0 flex flex-col items-start justify-start relative">
           <HeroCard
             img={BlogSingleBanner}
@@ -17,7 +17,7 @@ const BlogSingle = () => {
         <div className="w-full h-full">
           <BlogSingleCard/>
         </div>
-      </div>
+      </section>
     </>
   );
 };

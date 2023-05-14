@@ -49,15 +49,15 @@ const Question = () => {
         justify-between gap-20 py-20 xl:px-0"
         >
           <div className="w-full h-full flex flex-col justify-between items-center gap-10">
-            <div className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col justify-start items-start gap-5 font-Rubik">
+            <section className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col justify-start items-start gap-5 font-Rubik">
               <p className="head-text">FAQ</p>
               <h1 className="header-text">
                 Frequently Asked <br />
                 Questions
               </h1>
-            </div>
+            </section>
             {faqItems.map((item, index) => (
-              <div
+              <section
                 key={item.id}
                 className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col gap-2 items-center justify-start"
               >
@@ -87,14 +87,14 @@ const Question = () => {
                     </p>
                   </div>
                 )}
-              </div>
+              </section>
             ))}
           </div>
 
           <div className="w-full h-full sm:w-[520px] sm:h-[400px] md:w-[620px] md:h-[449px] lg:w-full lg:h-full relative">
             <img src={faq} alt="" className="w-full h-full object-cover" />
 
-            <div className="sm:w-[270px] sm:h-[230px] md:w-[300px] md:h-[250px]  lg:w-[260px] lg:h-[230px] xl:w-[300px] xl:h-[250px] bg-black-300 absolute top-0 bottom-0 -left-20  my-auto p-6 hidden sm:flex items-start justify-center flex-col gap-2">
+            <section className="sm:w-[270px] sm:h-[230px] md:w-[300px] md:h-[250px]  lg:w-[260px] lg:h-[230px] xl:w-[300px] xl:h-[250px] bg-black-300 absolute top-0 bottom-0 -left-20  my-auto p-6 hidden sm:flex items-start justify-center flex-col gap-2">
               <p className=" text-xs text-white font-Rubik font-normal border-l-4 border-l-dark-yellow-200 px-2">
                 Let's Talk
               </p>
@@ -111,7 +111,7 @@ const Question = () => {
               <button className="background text-[#23212A] text-sm px-4 py-2 mt-2">
                 Contact Us
               </button>
-            </div>
+            </section>
           </div>
         </div>
       </div>

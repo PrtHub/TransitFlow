@@ -11,7 +11,7 @@ const ServiceCard = ({ img, title, destination }) => {
           alt="ship"
           className="w-7 h-7 md:w-8 md:h-8 object-cover"
         />
-        <div className="flex flex-col items-start justify-start gap-1">
+        <section className="flex flex-col items-start justify-start gap-1">
           <Link
             to={destination}
             className="font-Rubik text-xl md:text-2xl text-black-200 hover:text-dark-yellow-100 cursor-pointer transition-all duration-200"
@@ -22,7 +22,7 @@ const ServiceCard = ({ img, title, destination }) => {
             Following the quality of our service thus having gained trust of our
             many clients.
           </p>
-        </div>
+        </section>
       </div>
     </>
   );

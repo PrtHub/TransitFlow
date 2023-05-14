@@ -19,10 +19,10 @@ const Projects = () => {
   return (
     <>
       <div className="w-full h-full">
-        <div className="w-full h-[310px] sm:h-[330px] lg:h-[370px] xl:h-full z-0 relative">
+        <section className="w-full h-[310px] sm:h-[330px] lg:h-[370px] xl:h-full z-0 relative">
           <HeroCard img={ProjectBanner} para="Gallery" header="Our Projects" />
-        </div>
-        <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-row flex-wrap items-center justify-center gap-5 px-7 py-20 xl:px-0">
+        </section>
+        <section className="w-full xl:w-[1200px] h-full mx-auto flex flex-row flex-wrap items-center justify-center gap-5 px-7 py-20 xl:px-0">
           <ProjectsImages
             destination="/project-details"
             img={project1}
@@ -33,7 +33,7 @@ const Projects = () => {
           <ProjectsImages img={project4} />
           <ProjectsImages img={project5} />
           <ProjectsImages img={project6} />
-        </div>
+        </section>
         <div className="w-full h-full">
           <Counter />
         </div>

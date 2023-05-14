@@ -5,15 +5,15 @@ const Service = () => {
     <>
       <div className="w-full h-full bg-white">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex items-start justify-around gap-10 sm:gap-14 py-20 px-7 xl:px-0">
-          <div className="flex flex-col items-start justify-start gap-2 font-Rubik ">
+          <section className="flex flex-col items-start justify-start gap-2 font-Rubik ">
             <p className="head-text">
               What We Do
             </p>
             <h1 className="header-text">
               Safe & Reliable <br /> Cargo Solutions
             </h1>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
+          </section>
+          <section className="grid grid-cols-1 lg:grid-cols-2 gap-14">
             <div className="flex  items-start justify-start gap-4">
               <img
                 src={ship}
@@ -78,7 +78,7 @@ const Service = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </>

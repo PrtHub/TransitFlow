@@ -15,9 +15,9 @@ const Home = () => {
       <Team/>
       <Contact/>
       <Blog/>
-      <div className="w-full h-full">
+      <section className="w-full h-full">
          <img src={port} alt="port" className="w-full h-full object-contain" />
-      </div>
+      </section>
     </div>
     </>
   )

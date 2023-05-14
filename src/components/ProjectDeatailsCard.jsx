@@ -20,10 +20,10 @@ const ProjectDeatailsCard = () => {
   return (
     <>
     <div className="w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-10">
-       <div className="w-full h-full sm:w-[590px] sm:h-[350px] md:w-[642px] md:h-[380px]">
+       <section className="w-full h-full sm:w-[590px] sm:h-[350px] md:w-[642px] md:h-[380px]">
           <img src={project1full} alt="" />
-       </div>
-       <div className="flex flex-col items-start justify-start gap-4 ">
+       </section>
+       <section className="flex flex-col items-start justify-start gap-4 ">
           <h1 className="header-text">Project Details</h1>
           <div className="flex items-start justify-start gap-4">
             <h2 className="text-base font-Rubik font-medium ">Customer :</h2>
@@ -45,7 +45,7 @@ const ProjectDeatailsCard = () => {
             <h2 className="text-base font-Rubik font-medium ">Tags :</h2>
             <p className="text-base  font-Krub font-normal">Life Style Travel , Best Delivery</p>
           </div>
-       </div>
+       </section>
     </div>
 
     <div className="w-full h-full flex flex-col gap-4 items-start justify-start">

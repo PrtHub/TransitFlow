@@ -5,7 +5,7 @@ const BlogSingleCard = () => {
   return (
     <>
       <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col lg:flex-row justify-between  items-center lg:items-start gap-10 px-7 xl:px-0 py-20">
-        <div className="w-full sm:max-w-xl h-full flex flex-col justify-start items-start gap-4">
+        <section className="w-full sm:max-w-xl h-full flex flex-col justify-start items-start gap-4">
           <div className="flex flex-col items-start justify-start gap-2">
             <h1 className="header-text">Your Logistics Solutions</h1>
             <p className="para">
@@ -62,8 +62,8 @@ const BlogSingleCard = () => {
                 <p className="text-light-gray font-medium text-sm">Category : Shipping</p>
             </div>
           </div>
-        </div>
-        <div className="w-[384px] h-full hidden lg:flex flex-col items-start justify-start gap-20">
+        </section>
+        <section className="w-[384px] h-full hidden lg:flex flex-col items-start justify-start gap-20">
           <div className="w-full h-full bg-light-gray-100 p-8 flex flex-col items-start gap-4">
             <h1 className="text-black-200 text-lg font-semibold">Categories</h1>
             <div className="w-full h-full flex items-center justify-between ">
@@ -115,7 +115,7 @@ const BlogSingleCard = () => {
               <p>contact@logistics.com</p>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

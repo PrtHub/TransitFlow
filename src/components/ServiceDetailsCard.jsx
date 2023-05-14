@@ -21,7 +21,7 @@ const ServiceDetailsCard = () => {
   return (
     <>
       <div className="w-full lg:w-[1200px] h-full mx-auto flex flex-col items-center justify-center gap-10 sm:gap-14 py-10 px-7 xl:px-0 ">
-        <div className="w-full  h-full flex flex-col gap-4">
+        <section className="w-full  h-full flex flex-col gap-4">
           <div className="w-full h-[309px] sm:h-[409px] md:h-[509px]">
             <img src={Ship} alt="Ship" className="w-full h-full object-cover" />
           </div>
@@ -62,8 +62,8 @@ const ServiceDetailsCard = () => {
               distinctio.
             </p>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-col-reverse lg:flex-row items-start lg:items-center justify-between gap-4">
+        </section>
+        <section className="w-full h-full flex flex-col-reverse lg:flex-row items-start lg:items-center justify-between gap-4">
           <div className="w-full sm:max-w-md flex flex-col gap-4 items-start justify-start">
             <div className="flex flex-col items-start justify-start gap-2">
               <h1 className="header-text">Benefit of Service</h1>
@@ -101,8 +101,8 @@ const ServiceDetailsCard = () => {
           <div className="sm:w-[510px] sm:h-[320px] md:w-[620px] md:h-[376px]">
             <img src={threeTrucks} alt="" />
           </div>
-        </div>
-        <div className="w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-20">
+        </section>
+        <section className="w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-20">
           <div className="w-full h-full sm:w-[510px] sm:h-[320px] md:w-[620px] md:h-[376px] lg:w-[520px] xl:w-[600px] relative">
             <video
               src={intro}
@@ -128,7 +128,7 @@ const ServiceDetailsCard = () => {
              <p className="para">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.</p>
              <p className="para">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</p>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

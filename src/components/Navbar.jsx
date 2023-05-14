@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-full ">
+      <nav className="w-full h-full ">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex items-center justify-between  px-7 xl:px-0 gap-9 font-Krub">
           {/* desktop */}
           <ul className=" h-full hidden md:flex items-center gap-8 text-white font-semibold text-sm lg:text-base">
@@ -100,7 +100,7 @@ const Navbar = () => {
           </ul>
 
           {/* mobile-menu */}
-          <div className="flex md:hidden items-center gap-2">
+          <section className="flex md:hidden items-center gap-2">
             {toggleMenu ? (
               <AiOutlineClose
                 className="w-6 h-6 text-white cursor-pointer"
@@ -196,9 +196,9 @@ const Navbar = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-          </div>
+          </section>
 
-          <div className=" h-full hidden sm:flex items-center justify-center gap-8">
+          <section className=" h-full hidden sm:flex items-center justify-center gap-8">
             <div className="flex items-center justify-center gap-2">
               <AiOutlineInstagram className="w-5 h-5 text-white" />
               <AiFillFacebook className="w-5 h-5 text-white" />
@@ -210,9 +210,9 @@ const Navbar = () => {
                 Request quote
               </button>
             </div>
-          </div>
+          </section>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
