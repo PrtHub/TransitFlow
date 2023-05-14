@@ -30,6 +30,8 @@ import faq from './faq.png'
 import ServiceBanner from './ServiceBanner.png'
 import ServiceDetailsBanner from './ServiceDetailsBanner.png'
 import work from './work.png'
+import Ship from './Ship.png'
+import threeTrucks from './3Trucks.png'
 
 
 export {
@@ -64,5 +66,8 @@ export {
     faq,
     ServiceBanner,
     ServiceDetailsBanner,
-    work
+    work,
+    Ship,
+    threeTrucks
+    
 }
