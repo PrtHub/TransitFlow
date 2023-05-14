@@ -1,8 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import { Flight, Truck, ship, warehouse } from "../assets/icons";
 import { customer, project } from "../assets/images";
 import { ServiceCard } from "../components";
 
 const Service = () => {
+
+  const navigate = useNavigate();
+
+  const HandleClick = (destination) => {
+      navigate(destination);
+  }
+
   return (
     <>
       <div className="w-full h-full bg-[#F4F4F4]">
@@ -12,7 +20,7 @@ const Service = () => {
             <h1 className="header-text">Our Logistics Services</h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
-             <ServiceCard img={ship} title="Sea Transport Services"/>
+             <ServiceCard destination='/services-details' img={ship} title="Sea Transport Services" onClick={HandleClick}/>
              <ServiceCard img={warehouse} title="Warehousing Services"/>
              <ServiceCard img={Flight} title="Air Fright Services"/>
              <ServiceCard img={project} title="Project & Exhibition"/>
