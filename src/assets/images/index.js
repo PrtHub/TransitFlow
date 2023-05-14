@@ -28,6 +28,7 @@ import customer from './customer.png'
 import project from './project.png'
 import faq from './faq.png'
 import ServiceBanner from './ServiceBanner.png'
+import ServiceDetailsBanner from './ServiceDetailsBanner.png'
 import work from './work.png'
 
 
@@ -62,5 +63,6 @@ export {
     project,
     faq,
     ServiceBanner,
+    ServiceDetailsBanner,
     work
 }
