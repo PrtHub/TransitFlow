@@ -1,6 +1,6 @@
-import { Flight, Truck, ship, warehouse } from "../../assets/icons";
-import { customer, project } from "../../assets/images";
-import { ServiceCard } from "../../components";
+import { Flight, Truck, ship, warehouse } from "../assets/icons";
+import { customer, project } from "../assets/images";
+import { ServiceCard } from "../components";
 
 const Service = () => {
   return (

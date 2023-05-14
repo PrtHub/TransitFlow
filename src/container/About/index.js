@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Service from "./Service";
+import Service from "../Service";
 import About from "./About";
 import Question from "./Question";
 import Client from "./Client";
