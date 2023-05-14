@@ -64,7 +64,7 @@ const ServiceDetailsCard = () => {
           </div>
         </div>
         <div className="w-full h-full flex flex-col-reverse lg:flex-row items-start lg:items-center justify-between gap-4">
-          <div className="w-full sm:max-w-sm flex flex-col gap-4 items-start justify-start">
+          <div className="w-full sm:max-w-md flex flex-col gap-4 items-start justify-start">
             <div className="flex flex-col items-start justify-start gap-2">
               <h1 className="header-text">Benefit of Service</h1>
               <p className="para">
@@ -102,8 +102,8 @@ const ServiceDetailsCard = () => {
             <img src={threeTrucks} alt="" />
           </div>
         </div>
-        <div className="w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
-          <div className="w-full h-full sm:w-[510px] sm:h-[320px] md:w-[620px] md:h-[376px] relative">
+        <div className="w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-20">
+          <div className="w-full h-full sm:w-[510px] sm:h-[320px] md:w-[620px] md:h-[376px] lg:w-[520px] xl:w-[600px] relative">
             <video
               src={intro}
               ref={vidRef}
@@ -122,6 +122,11 @@ const ServiceDetailsCard = () => {
               )}
                 </div>
             </div>
+          </div>
+          <div className="w-full sm:max-w-md lg:max-w-sm xl:max-w-md flex flex-col gap-4 items-start justify-start">
+             <h1 className="header-text">How It Works</h1>
+             <p className="para">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.</p>
+             <p className="para">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</p>
           </div>
         </div>
       </div>
