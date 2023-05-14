@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-const ProjectsImages = ({ img }) => {
+const ProjectsImages = ({ img, destination }) => {
   const [show, setShow] = useState(false);
   return (
     <>
@@ -15,9 +16,9 @@ const ProjectsImages = ({ img }) => {
           onMouseOver={() => setShow(!show)}
         />
         {show && (
-          <div className="w-[322px] h-[283px] m-auto bg-black-200 bg-opacity-90 z-10 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white font-Krub cursor-pointer">
+          <Link to={destination} className="w-[322px] h-[283px] m-auto bg-black-200 bg-opacity-90 z-10 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white font-Krub cursor-pointer">
             <BsBoxArrowUpRight className="w-6 h-6"/>
-          </div>
+          </Link>
         )}
       </div>
     </>

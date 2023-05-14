@@ -34,11 +34,13 @@ import Ship from './Ship.png'
 import threeTrucks from './3Trucks.png'
 import ProjectBanner from './ProjectBanner.png'
 import project1 from './project1.png'
+import project1full from './project1full.png'
 import project3 from './project3.png'
 import project2 from './project2.png'
 import project4 from './project4.png'
 import project5 from './project5.png'
 import project6 from './project6.png'
+import ProjectDetailsBanner from './ProjectDetailsBanner.png'
 
 
 export {
@@ -82,5 +84,7 @@ export {
     project3,
     project4,
     project5,
-    project6  
+    project6,
+    project1full,
+    ProjectDetailsBanner
 }
