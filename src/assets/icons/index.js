@@ -4,6 +4,9 @@ import Truck from './Truck.png'
 import warehouse from './warehouse.png'
 import Flight from './Flight.svg'
 import Star from './Star.png'
+import care from './care.png'
+import safety from './safety.png'
+import ware from './ware.png'
 
 
 export {
@@ -12,5 +15,8 @@ export {
     Truck,
     warehouse,
     Flight,
-    Star
+    Star,
+    care,
+    safety,
+    ware
 }

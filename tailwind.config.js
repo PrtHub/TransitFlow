@@ -7,6 +7,7 @@ export default {
         "black-200": "#1C1F35",
         "black-300": "#091242",
         "light-gray": "#666C89",
+        "light-gray-100": '#F4F4F4',
         "dark-yellow": "#FFBE34",
         "dark-yellow-100": "#FFB82B",
         "dark-yellow-200": '#FFB629'
