@@ -8,11 +8,11 @@ import {
   Contact,
   Home,
   Pricing,
+  ProjectDetails,
   Projects,
   Services,
   ServicesDetails,
   Tech,
-  Transpotation,
 } from "./pages";
 import { Footer, Header, Navbar } from "./components";
 
@@ -32,7 +32,7 @@ const App = () => {
             <Route path="/blog-single" element={<BlogSingle />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/tech" element={<Tech />} />
-            <Route path="/transportation" element={<Transpotation />} />
+            <Route path="/project-details" element={<ProjectDetails />} />
             <Route path="/pricing" element={<Pricing />} />
           </Routes>
           <div className="w-full h-[78px] absolute top-0 bg-[#091242] bg-opacity-25 z-20">

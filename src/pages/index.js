@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import Services from "./Services";
 import ServicesDetails from "./ServicesDetails";
 import Tech from "./Tech";
-import Transpotation from "./Transpotation";
+import ProjectDetails from "./ProjectDetails";
 
 export {
     Home,
@@ -21,5 +21,5 @@ export {
     Services,
     ServicesDetails,
     Tech,
-    Transpotation
+    ProjectDetails
 }
