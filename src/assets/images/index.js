@@ -41,6 +41,11 @@ import project4 from './project4.png'
 import project5 from './project5.png'
 import project6 from './project6.png'
 import ProjectDetailsBanner from './ProjectDetailsBanner.png'
+import BlogBanner from './BlogBanner.png'
+import BlogSingleBanner from './BlogSingleBanner.png'
+import driver from './driver.png'
+import manager from './manager.png'
+import Evergreen from './EvergreenShip.png'
 
 
 export {
@@ -86,5 +91,10 @@ export {
     project5,
     project6,
     project1full,
-    ProjectDetailsBanner
+    ProjectDetailsBanner,
+    BlogBanner,
+    driver,
+    manager,
+    BlogSingleBanner,
+    Evergreen
 }

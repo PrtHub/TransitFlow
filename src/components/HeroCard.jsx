@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const HeroCard = ({ img, header, para }) => {
+const HeroCard = ({ img, header, para, span }) => {
   return (
     <>
       <div className="w-full h-full ">
@@ -11,7 +11,7 @@ const HeroCard = ({ img, header, para }) => {
           {para}
         </p>
         <h1 className="font-Rubik text-2xl md:text-3xl lg:text-4xl  text-white font-bold">
-          {header}
+          {header} <br /> {span}
         </h1>
       </div>
     </>

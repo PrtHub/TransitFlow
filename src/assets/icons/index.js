@@ -7,6 +7,7 @@ import Star from './Star.png'
 import care from './care.png'
 import safety from './safety.png'
 import ware from './ware.png'
+import calender from './calender.png'
 
 
 export {
@@ -18,5 +19,6 @@ export {
     Star,
     care,
     safety,
-    ware
+    ware,
+    calender
 }

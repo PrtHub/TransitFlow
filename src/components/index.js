@@ -9,6 +9,7 @@ import ServiceCard from "./ServiceCard";
 import HeroCard from "./HeroCard";
 import ServiceDetailsCard from "./ServiceDetailsCard";
 import ProjectsImages from "./ProjectsImages";
+import BlogSingleCard from "./BlogSingleCard";
 
 
 export {
@@ -22,5 +23,6 @@ export {
     ServiceCard,
     HeroCard,
     ServiceDetailsCard,
-    ProjectsImages
+    ProjectsImages,
+    BlogSingleCard
 }

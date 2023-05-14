@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react"
 import { calender } from "../assets/images"
+import { Link } from "react-router-dom"
 
 
-const BlogCard = ({ img, title, date}) => {
+const BlogCard = ({ img, title, date, destination}) => {
     const[show, setShow] = useState(false)
 
   return (
@@ -12,7 +13,7 @@ const BlogCard = ({ img, title, date}) => {
        <div className="w-full h-full sm:w-[453px] sm:h-[308px] relative">
          <img src={img} alt="" className="w-full h-full object-contain z-0" onMouseOver={() => setShow(!show)} />
          { show && 
-          <div className="w-[323px] h-[203px] m-auto bg-black-200 bg-opacity-90 z-10 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white font-Krub cursor-pointer">Read More</div>
+          <Link to={destination} className="w-[323px] h-[203px] m-auto bg-black-200 bg-opacity-90 z-10 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white font-Krub cursor-pointer" >Read More</Link>
          }
        </div>
        <div className="flex justify-start items-start gap-4">
@@ -24,7 +25,7 @@ const BlogCard = ({ img, title, date}) => {
                </div>
            </div>
            <div className="max-w-[335px] h-full flex flex-col justify-start items-start gap-2">
-               <h2 className="font-Rubik text-xl font-normal hover:text-dark-yellow cursor-pointer focus:text-dark-yellow transition-all duration-200">{title}</h2>
+               <Link to={destination} className="font-Rubik text-xl font-normal hover:text-dark-yellow cursor-pointer focus:text-dark-yellow transition-all duration-200">{title}</Link>
                <p className="para">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
                <ul className="flex flex-col items-start gap-1 p-4 list-disc font-Krub text-black-200 text-sm">
                 <li>Urgent transport solutions</li>
