@@ -82,7 +82,7 @@ const Navbar = () => {
               </a>
               {openPage && (
                 <ul className="absolute top-2 w-24 h-fit mt-7 flex flex-col  gap-2 slideBottom">
-                  <li>
+                  <li >
                     <Link to="/services">Services</Link>
                   </li>
                   <li>
@@ -120,12 +120,12 @@ const Navbar = () => {
                   onClick={() => setToggleMenu(false)}
                 />
                 <ul className="z-10 text-white flex flex-col items-center justify-center gap-8 p-8">
-                  <li className="text-lg font-medium">
+                  <li className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link to="/" className={`${loactionPath("/") && "text-light-gray"} `}>
                       Home
                     </Link>
                   </li>
-                  <li  className="text-lg font-medium">
+                  <li  className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/aboutus"
                       className={`${loactionPath("/aboutus") && "text-light-gray"}`}
@@ -133,7 +133,7 @@ const Navbar = () => {
                       About
                     </Link>
                   </li>
-                  <li  className="text-lg font-medium">
+                  <li  className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/services"
                       className={`${loactionPath("/services") && "text-light-gray"}`}
@@ -141,7 +141,7 @@ const Navbar = () => {
                       Services
                     </Link>
                   </li>
-                  <li  className="text-lg font-medium">
+                  <li  className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/blog"
                       className={`${loactionPath("/blog") && "text-light-gray"}`}
@@ -149,7 +149,7 @@ const Navbar = () => {
                       Blog
                     </Link>
                   </li>
-                  <li  className="text-lg font-medium">
+                  <li  className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/projects"
                       className={`${loactionPath("/projects") && "text-light-gray"}`}
@@ -157,7 +157,7 @@ const Navbar = () => {
                       Projects
                     </Link>
                   </li>
-                  <li  className="text-lg font-medium">
+                  <li  className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/team"
                       className={`${loactionPath("/team") && "text-light-gray"}`}
@@ -165,7 +165,7 @@ const Navbar = () => {
                       Team
                     </Link>
                   </li>
-                  <li className="text-lg font-medium">
+                  <li className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/pricing"
                       className={`${loactionPath("/pricing") && "text-light-gray"}`}
@@ -173,7 +173,7 @@ const Navbar = () => {
                       Pricing
                     </Link>
                   </li>
-                  <li className="text-lg font-medium">
+                  <li className="text-lg font-medium" onClick={() => setToggleMenu(false)}>
                     <Link
                       to="/contact"
                       className={`${loactionPath("/contact") && "text-light-gray"}`}
