@@ -12,7 +12,7 @@ import { Logo } from "../assets/icons";
 const Footer = () => {
   return (
     <>
-      <Footer className="w-full h-full bg-black-300">
+      <footer className="w-full h-full bg-black-300">
         <div className="w-full xl:w-[1200px] h-full mx-auto flex flex-col items-start  gap-10 sm:gap-14 py-10 px-7 xl:px-0">
           <section className="flex items-start justify-start ">
             <img src={Logo} alt="" />
@@ -85,7 +85,7 @@ const Footer = () => {
             </ul>
           </section>
         </div>
-      </Footer>
+      </footer>
     </>
   );
 };
