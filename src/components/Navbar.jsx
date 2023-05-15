@@ -50,31 +50,6 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className="relative">
-              <a
-                className="flex items-center justify-center gap-1 cursor-pointer"
-                onClick={() => setOpenPage(!openPage)}
-              >
-                Page
-                <AiOutlineDown className="w-3 h-3" />
-              </a>
-              {openPage && (
-                <ul className="absolute top-6 w-24 h-fit bg-[#091242] bg-opacity-25 mt-7 p-3 flex flex-col  gap-2">
-                  <li>
-                    <Link to="/services">Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/pricing">Pricing</Link>
-                  </li>
-                </ul>
-              )}
-            </li>
             <li>
               <Link
                 to="/projects"
@@ -97,6 +72,32 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="relative">
+              <a
+                className="flex items-center justify-center gap-1 cursor-pointer"
+                onClick={() => setOpenPage(!openPage)}
+              >
+                Page
+                <AiOutlineDown className="w-3 h-3" />
+              </a>
+              {openPage && (
+                <ul className="absolute top-2 w-24 h-fit mt-7 flex flex-col  gap-2">
+                  <li>
+                    <Link to="/services">Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    <Link to="/team">Team</Link>
+                  </li>
+                  <li>
+                    <Link to="/pricing">Pricing</Link>
+                  </li>
+                </ul>
+              )}
+            </li>
+           
           </ul>
 
           {/* mobile-menu */}
@@ -113,7 +114,7 @@ const Navbar = () => {
               />
             )}
             {toggleMenu && (
-              <div className="bg-black-300 fixed top-0 left-0 w-full h-fit">
+              <div className="bg-black-300 fixed top-0 left-0 w-full h-fit" >
                 <AiOutlineClose
                   className="w-6 h-6 text-white cursor-pointer absolute top-5 right-5"
                   onClick={() => setToggleMenu(false)}
