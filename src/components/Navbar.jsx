@@ -81,7 +81,7 @@ const Navbar = () => {
                 <AiOutlineDown className="w-3 h-3" />
               </a>
               {openPage && (
-                <ul className="absolute top-2 w-24 h-fit mt-7 flex flex-col  gap-2">
+                <ul className="absolute top-2 w-24 h-fit mt-7 flex flex-col  gap-2 slideBottom">
                   <li>
                     <Link to="/services">Services</Link>
                   </li>
@@ -114,7 +114,7 @@ const Navbar = () => {
               />
             )}
             {toggleMenu && (
-              <div className="bg-black-300 fixed top-0 left-0 w-full h-fit" >
+              <div className="bg-black-300 fixed top-0 left-0 w-full h-fit slideBottom" >
                 <AiOutlineClose
                   className="w-6 h-6 text-white cursor-pointer absolute top-5 right-5"
                   onClick={() => setToggleMenu(false)}
