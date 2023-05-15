@@ -84,7 +84,7 @@ const Contact = () => {
                 className="w-full h-32 border-[1px] border-[#4E5683] bg-transparent outline-none placeholder:text-white text-white px-5 py-3 font-normal text-sm sm:text-base "
               ></textarea>
               <button
-                className=" background text-[#23212A] font-Krub font-medium text-base px-5 py-3 text-sm sm:text-base 
+                className=" background text-[#23212A] font-Krub font-medium px-5 py-3 text-sm sm:text-base 
                 "
               >
                 Submit Message{" "}

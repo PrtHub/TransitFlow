@@ -52,6 +52,8 @@ import Kane from './Kane.png'
 import Lisara from './Lisara.png'
 import TruckContainer from './TruckContainer.png'
 import ContactBanner from './ContactBanner.png'
+import PriceBanner from './PriceBanner.png'
+
 
 
 export {
@@ -108,5 +110,6 @@ export {
     Kane,
     Lisara,
     TruckContainer,
-    ContactBanner
+    ContactBanner,
+    PriceBanner
 }

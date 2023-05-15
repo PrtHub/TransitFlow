@@ -12,6 +12,7 @@ import { BlogCard, HeroCard } from "../components";
 const Blog = () => {
   const navigate = useNavigate();
   const HandleClick = (destination) => {
+    window.scrollTo(0, 0);
     navigate(destination);
   };
   return (
