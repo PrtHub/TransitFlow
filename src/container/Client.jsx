@@ -1,4 +1,4 @@
-import { client1, client2, client3, client4 } from "../../assets/images";
+import { client1, client2, client3, client4 } from "../assets/images";
 
 const Client = () => {
   return (

@@ -51,6 +51,7 @@ import Ria from './Ria.png'
 import Kane from './Kane.png'
 import Lisara from './Lisara.png'
 import TruckContainer from './TruckContainer.png'
+import ContactBanner from './ContactBanner.png'
 
 
 export {
@@ -106,5 +107,6 @@ export {
     Ria,
     Kane,
     Lisara,
-    TruckContainer
+    TruckContainer,
+    ContactBanner
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiOutlineRight, AiOutlineDown } from "react-icons/ai";
-import { faq } from "../../assets/images";
+import { faq } from "../assets/images";
 import { IoCallOutline } from "react-icons/io5";
 
 const Question = () => {
