@@ -67,7 +67,7 @@ const Navbar = () => {
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link to="/tech">Tech</Link>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li>
                     <Link to="/pricing">Pricing</Link>
@@ -158,10 +158,10 @@ const Navbar = () => {
                   </li>
                   <li  className="text-lg font-medium">
                     <Link
-                      to="/tech"
-                      className={`${loactionPath("/tech") && "text-light-gray"}`}
+                      to="/team"
+                      className={`${loactionPath("/team") && "text-light-gray"}`}
                     >
-                      Tech
+                      Team
                     </Link>
                   </li>
                   <li className="text-lg font-medium">

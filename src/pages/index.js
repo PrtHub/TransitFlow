@@ -7,7 +7,7 @@ import Pricing from "./Pricing";
 import Projects from "./Projects";
 import Services from "./Services";
 import ServicesDetails from "./ServicesDetails";
-import Tech from "./Tech";
+import OurTeam from "./OurTeam";
 import ProjectDetails from "./ProjectDetails";
 
 export {
@@ -20,6 +20,6 @@ export {
     Projects,
     Services,
     ServicesDetails,
-    Tech,
+    OurTeam,
     ProjectDetails
 }

@@ -12,7 +12,7 @@ import {
   Projects,
   Services,
   ServicesDetails,
-  Tech,
+  OurTeam,
 } from "./pages";
 import { Footer, Header, Navbar } from "./components";
 
@@ -31,7 +31,7 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog-single" element={<BlogSingle />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/tech" element={<Tech />} />
+            <Route path="/team" element={<OurTeam />} />
             <Route path="/project-details" element={<ProjectDetails />} />
             <Route path="/pricing" element={<Pricing />} />
           </Routes>
