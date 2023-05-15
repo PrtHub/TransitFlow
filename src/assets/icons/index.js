@@ -8,6 +8,8 @@ import care from './care.png'
 import safety from './safety.png'
 import ware from './ware.png'
 import calender from './calender.png'
+import vission from './vission.png'
+import estimate from './estimate.png'
 
 
 export {
@@ -20,5 +22,7 @@ export {
     care,
     safety,
     ware,
-    calender
+    calender,
+    vission,
+    estimate
 }

@@ -46,6 +46,11 @@ import BlogSingleBanner from './BlogSingleBanner.png'
 import driver from './driver.png'
 import manager from './manager.png'
 import Evergreen from './EvergreenShip.png'
+import TeamBanner from './TeamBanner.png'
+import Ria from './Ria.png'
+import Kane from './Kane.png'
+import Lisara from './Lisara.png'
+import TruckContainer from './TruckContainer.png'
 
 
 export {
@@ -96,5 +101,10 @@ export {
     driver,
     manager,
     BlogSingleBanner,
-    Evergreen
+    Evergreen,
+    TeamBanner,
+    Ria,
+    Kane,
+    Lisara,
+    TruckContainer
 }
