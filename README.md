@@ -23,6 +23,8 @@ To use this template, you need to have the following installed on your machine:
 2. Install the dependencies: npm install
 3. To start the development server and view the template in your browser, run the following command: npm run dev
 
+This will start a local server at http://localhost:5173, where you can view and interact with the TransitFlow web page.
+
 ## Customization
 
 The Lostistic and Transportation UI template is highly customizable. You can modify or create new components to suit your requirements. The main files and directories you may need to work with are:
