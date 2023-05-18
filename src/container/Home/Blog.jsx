@@ -8,7 +8,10 @@ const Blog = () => {
     window.scrollTo(0, 0);
     navigate("/blog");
   };
-
+  const HandleClick = (destination) => {
+    window.scrollTo(0, 0);
+    navigate(destination);
+  };
   return (
     <>
       <div className="w-full h-full bg-white">
@@ -24,9 +27,11 @@ const Blog = () => {
               date="08"
             />
             <BlogCard
+            destination="/blog-single"
               img={Tech}
               title="How technology can help redraw the supply chain map"
               date="12"
+              onClick={HandleClick}
             />
             <BlogCard
               img={broker}
