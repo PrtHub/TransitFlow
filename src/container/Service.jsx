@@ -2,11 +2,17 @@ import { useNavigate } from "react-router-dom";
 import { Flight, Truck, ship, warehouse } from "../assets/icons";
 import { customer, project } from "../assets/images";
 import { ServiceCard } from "../components";
+import { animateScroll as scroll } from 'react-scroll';
+
 
 const Service = () => {
   const navigate = useNavigate();
 
   const HandleClick = (destination) => {
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: true
+    });
     navigate(destination);
   };
 

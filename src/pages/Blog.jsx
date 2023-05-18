@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { animateScroll as scroll } from 'react-scroll';
 import {
   BlogBanner,
   Tech,
@@ -12,7 +13,10 @@ import { BlogCard, HeroCard } from "../components";
 const Blog = () => {
   const navigate = useNavigate();
   const HandleClick = (destination) => {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: true
+    });
     navigate(destination);
   };
   return (

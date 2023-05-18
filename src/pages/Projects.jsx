@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { animateScroll as scroll } from 'react-scroll';
 import {
   ProjectBanner,
   project1,
@@ -14,6 +15,10 @@ import Counter from "../container/Services/Counter";
 const Projects = () => {
   const navigate = useNavigate();
   const handleClick = (destination) => {
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: true
+    });
     navigate(destination);
   };
   return (

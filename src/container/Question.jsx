@@ -46,7 +46,7 @@ const Question = () => {
       <div className="w-full h-full bg-white flex lg:justify-end">
         <div
           className="w-full xl:w-[1500x] h-full flex flex-col-reverse lg:flex-row items-center 
-        justify-between gap-20 py-20 xl:px-0"
+        justify-between gap-20 py-20 px-7 xl:px-0"
         >
           <div className="w-full h-full flex flex-col justify-between items-center gap-10">
             <section className="w-full sm:w-[500px] max-w-[500px] h-full flex flex-col justify-start items-start gap-5 font-Rubik">

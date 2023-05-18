@@ -1,15 +1,23 @@
 import { Tech, broker, business } from "../../assets/images";
 import { BlogCard } from "../../components";
 import { useNavigate } from "react-router-dom";
+import { animateScroll as scroll } from 'react-scroll';
+
 
 const Blog = () => {
   const navigate = useNavigate();
   const handleNextPage = () => {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop({
+     duration: 500,
+      smooth: true
+    });
     navigate("/blog");
   };
   const HandleClick = (destination) => {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop({
+     duration: 500,
+      smooth: true
+    });
     navigate(destination);
   };
   return (
@@ -27,7 +35,7 @@ const Blog = () => {
               date="08"
             />
             <BlogCard
-            destination="/blog-single"
+              destination="/blog-single"
               img={Tech}
               title="How technology can help redraw the supply chain map"
               date="12"
