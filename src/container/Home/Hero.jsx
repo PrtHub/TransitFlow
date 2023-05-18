@@ -8,7 +8,7 @@ const Hero = () => {
           <img src={Banner} alt="" className="w-full h-full object-cover" />
         </section>
 
-        <section className="w-full h-full font-Rubik text-white flex flex-col items-start gap-2 md:gap-3 absolute top-44 sm:top-64 md:top-72 lg:top-64 left-5 sm:left-10 md:left-10 lg:left-48">
+        <section className="w-full h-full font-Rubik text-white flex flex-col items-start  justify-start gap-2 md:gap-3 absolute top-44 sm:top-64 md:top-72 lg:top-64 left-5 sm:left-10 md:left-10 lg:left-20 xl:left-40  2xl:left-96">
           <p className="text-[10px] sm:text-xs bg-[#041C37] bg-opacity-50 px-1 border-l-4 border-l-dark-yellow-200">
             Logistics & Supply Chain Solutions
           </p>
@@ -28,3 +28,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+//
